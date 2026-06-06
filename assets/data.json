@@ -4,378 +4,765 @@
     "questions": [
       {
         "number": 1,
-        "question": "أي عنصر يُعد Phrasing Content فقط وفق HTML Living Standard؟",
-        "answer1": "<article>",
-        "answer2": "<section>",
-        "answer3": "<span>",
-        "answer4": "<aside>",
-        "correctAnswer": "answer3"
-      },
-      {
-        "number": 2,
-        "question": "أي عنصر لا يُسمح بوضعه مباشرة داخل <ul>؟",
-        "answer1": "<li>",
-        "answer2": "<script>",
-        "answer3": "<template>",
-        "answer4": "<div>",
-        "correctAnswer": "answer4"
-      },
-      {
-        "number": 3,
-        "question": "أي Attribute يُستخدم لتحديد علاقة الصفحة الحالية بصفحة أخرى؟",
-        "answer1": "rel",
-        "answer2": "ref",
-        "answer3": "link",
-        "answer4": "target",
+        "question": "ما وظيفة Shadow DOM؟",
+        "answer1": "عزل الـ DOM",
+        "answer2": "تحسين السرعة فقط",
+        "answer3": "حذف CSS",
+        "answer4": "تشغيل JS",
         "correctAnswer": "answer1"
       },
       {
+        "number": 2,
+        "question": "أي عنصر يعتبر Sectioning Root؟",
+        "answer1": "<div>",
+        "answer2": "<body>",
+        "answer3": "<section>",
+        "answer4": "<main>",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما فائدة defer في script؟",
+        "answer1": "تنفيذه فورًا",
+        "answer2": "بعد DOM",
+        "answer3": "إيقاف الصفحة",
+        "answer4": "حذف JS",
+        "correctAnswer": "answer2"
+      },
+      {
         "number": 4,
-        "question": "أي عنصر يُستخدم لتمثيل محتوى مستقل يمكن توزيعه منفردًا؟",
-        "answer1": "<section>",
-        "answer2": "<article>",
-        "answer3": "<main>",
-        "answer4": "<div>",
+        "question": "ما وظيفة <template>؟",
+        "answer1": "عرض مباشر",
+        "answer2": "تخزين غير مفعّل",
+        "answer3": "تحميل CSS",
+        "answer4": "تشغيل API",
         "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "أي قيمة لـ preload تجعل المتصفح يجلب بيانات وصفية فقط للفيديو؟",
-        "answer1": "auto",
-        "answer2": "none",
-        "answer3": "metadata",
-        "answer4": "lazy",
-        "correctAnswer": "answer3"
+        "question": "أي عنصر يمنع داخله interactive content؟",
+        "answer1": "<p>",
+        "answer2": "<div>",
+        "answer3": "<span>",
+        "answer4": "<a>",
+        "correctAnswer": "answer1"
       },
       {
         "number": 6,
-        "question": "أي عنصر يُستخدم لتوفير بدائل وسائط داخل picture؟",
-        "answer1": "<resource>",
-        "answer2": "<media>",
-        "answer3": "<source>",
-        "answer4": "<imgset>",
-        "correctAnswer": "answer3"
+        "question": "ما معنى srcset؟",
+        "answer1": "CSS set",
+        "answer2": "صور متعددة",
+        "answer3": "JS set",
+        "answer4": "روابط",
+        "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "أي عنصر يمثل عنوانًا لمجموعة عناصر داخل fieldset؟",
-        "answer1": "<label>",
-        "answer2": "<caption>",
-        "answer3": "<legend>",
-        "answer4": "<summary>",
+        "question": "أي عنصر يستخدم لربط CSS خارجي؟",
+        "answer1": "<style>",
+        "answer2": "<css>",
+        "answer3": "<link>",
+        "answer4": "<script>",
         "correctAnswer": "answer3"
       },
       {
         "number": 8,
-        "question": "أي عنصر يُستخدم للكشف والإخفاء بشكل افتراضي؟",
-        "answer1": "<dialog>",
-        "answer2": "<summary>",
-        "answer3": "<details>",
-        "answer4": "<toggle>",
-        "correctAnswer": "answer3"
+        "question": "ما فائدة alt؟",
+        "answer1": "SEO فقط",
+        "answer2": "وصف الصورة",
+        "answer3": "سرعة",
+        "answer4": "حذف الصورة",
+        "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "ما العنصر الذي يمثل ناتج عملية حسابية أو إجراء برمجي؟",
-        "answer1": "<code>",
-        "answer2": "<result>",
-        "answer3": "<var>",
-        "answer4": "<output>",
-        "correctAnswer": "answer4"
+        "question": "ما وظيفة <meta charset>؟",
+        "answer1": "CSS",
+        "answer2": "ترميز النص",
+        "answer3": "JS",
+        "answer4": "صور",
+        "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "أي عنصر يُستخدم لتحديد تاريخ أو وقت بصيغة قابلة للمعالجة آليًا؟",
-        "answer1": "<clock>",
-        "answer2": "<date>",
-        "answer3": "<datetime>",
-        "answer4": "<time>",
-        "correctAnswer": "answer4"
+        "question": "ما الفرق بين id و class؟",
+        "answer1": "لا فرق",
+        "answer2": "id فريد",
+        "answer3": "class فريد",
+        "answer4": "كلاهما CSS فقط",
+        "correctAnswer": "answer2"
       }
     ]
   },
+
   {
-    "title": "كرة القدم",
+    "title": "الرياضيات",
     "questions": [
       {
         "number": 1,
-        "question": "من صاحب الرقم القياسي لعدد الأهداف في نسخة واحدة من كأس العالم للرجال؟",
-        "answer1": "جوست فونتين",
-        "answer2": "جيرد مولر",
-        "answer3": "ساندور كوتشيس",
-        "answer4": "بيليه",
-        "correctAnswer": "answer1"
+        "question": "مشتقة x^x =",
+        "answer1": "x^x",
+        "answer2": "x^x(ln x + 1)",
+        "answer3": "ln x",
+        "answer4": "x",
+        "correctAnswer": "answer2"
       },
       {
         "number": 2,
-        "question": "أي منتخب فاز بأول بطولة كأس عالم عام 1930؟",
-        "answer1": "الأرجنتين",
-        "answer2": "البرازيل",
-        "answer3": "الأوروغواي",
-        "answer4": "إيطاليا",
-        "correctAnswer": "answer3"
+        "question": "lim x→0 sinx/x =",
+        "answer1": "0",
+        "answer2": "1",
+        "answer3": "∞",
+        "answer4": "-1",
+        "correctAnswer": "answer2"
       },
       {
         "number": 3,
-        "question": "في أي نادٍ حقق يوهان كرويف ثلاث كؤوس أوروبية متتالية لاعبًا؟",
-        "answer1": "برشلونة",
-        "answer2": "أياكس",
-        "answer3": "فينورد",
-        "answer4": "آيندهوفن",
-        "correctAnswer": "answer2"
-      },
-      {
-        "number": 4,
-        "question": "من أول لاعب يسجل في خمس نسخ مختلفة من كأس العالم؟",
-        "answer1": "ليونيل ميسي",
-        "answer2": "ميروسلاف كلوزه",
-        "answer3": "كريستيانو رونالدو",
-        "answer4": "بيليه",
-        "correctAnswer": "answer3"
-      },
-      {
-        "number": 5,
-        "question": "أي نادٍ يُلقب بالسيدة العجوز؟",
-        "answer1": "ميلان",
-        "answer2": "إنتر",
-        "answer3": "لاتسيو",
-        "answer4": "يوفنتوس",
-        "correctAnswer": "answer4"
-      },
-      {
-        "number": 6,
-        "question": "من صاحب الكرة الذهبية في كأس العالم 1998؟",
-        "answer1": "رونالدو نازاريو",
-        "answer2": "زيدان",
-        "answer3": "ريفالدو",
-        "answer4": "سوكر",
+        "question": "∫x dx من 0 إلى 2 =",
+        "answer1": "2",
+        "answer2": "4",
+        "answer3": "1",
+        "answer4": "3",
         "correctAnswer": "answer1"
       },
       {
-        "number": 7,
-        "question": "أي منتخب خسر نهائي كأس العالم 3 مرات متتالية بين 1974 و1990؟",
-        "answer1": "الأرجنتين",
-        "answer2": "ألمانيا الغربية",
-        "answer3": "هولندا",
-        "answer4": "البرازيل",
+        "number": 4,
+        "question": "det([[1,2],[3,4]]) =",
+        "answer1": "-2",
+        "answer2": "2",
+        "answer3": "1",
+        "answer4": "0",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 5,
+        "question": "log(100) =",
+        "answer1": "1",
+        "answer2": "2",
+        "answer3": "10",
+        "answer4": "100",
         "correctAnswer": "answer2"
       },
       {
-        "number": 8,
-        "question": "كم عدد اللاعبين الأساسيين داخل الملعب للفريق الواحد؟",
+        "number": 6,
+        "question": "sin²x + cos²x =",
+        "answer1": "0",
+        "answer2": "1",
+        "answer3": "2",
+        "answer4": "x",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "جذر 144 =",
         "answer1": "10",
-        "answer2": "12",
-        "answer3": "11",
-        "answer4": "9",
+        "answer2": "11",
+        "answer3": "12",
+        "answer4": "13",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "عدد أولي:",
+        "answer1": "21",
+        "answer2": "27",
+        "answer3": "29",
+        "answer4": "33",
         "correctAnswer": "answer3"
       },
       {
         "number": 9,
-        "question": "من الهداف التاريخي لكأس العالم للرجال؟",
-        "answer1": "رونالدو",
-        "answer2": "كلوزه",
-        "answer3": "مولر",
-        "answer4": "ميسي",
+        "question": "محيط الدائرة =",
+        "answer1": "πr²",
+        "answer2": "2πr",
+        "answer3": "πd²",
+        "answer4": "r²",
         "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "أي منتخب فاز بيورو 2004؟",
-        "answer1": "اليونان",
-        "answer2": "البرتغال",
-        "answer3": "فرنسا",
-        "answer4": "إسبانيا",
-        "correctAnswer": "answer1"
+        "question": "مجموع زوايا المثلث =",
+        "answer1": "90",
+        "answer2": "180",
+        "answer3": "270",
+        "answer4": "360",
+        "correctAnswer": "answer2"
       }
     ]
   },
+
   {
     "title": "الفيزياء",
     "questions": [
       {
         "number": 1,
-        "question": "إذا تضاعفت سرعة جسم فإن طاقته الحركية تصبح:",
-        "answer1": "ضعفين",
-        "answer2": "ثلاثة أضعاف",
-        "answer3": "أربعة أضعاف",
-        "answer4": "ثمانية أضعاف",
-        "correctAnswer": "answer3"
-      },
-      {
-        "number": 2,
-        "question": "وحدة قياس الفيض المغناطيسي هي:",
-        "answer1": "تسلا",
-        "answer2": "ويبر",
-        "answer3": "هنري",
-        "answer4": "فولت",
+        "question": "E=mc² يمثل:",
+        "answer1": "نيوتن",
+        "answer2": "أينشتاين",
+        "answer3": "فاراداي",
+        "answer4": "أوم",
         "correctAnswer": "answer2"
       },
       {
+        "number": 2,
+        "question": "سرعة الضوء:",
+        "answer1": "3×10⁸",
+        "answer2": "3×10⁶",
+        "answer3": "3×10⁵",
+        "answer4": "3×10⁷",
+        "correctAnswer": "answer1"
+      },
+      {
         "number": 3,
-        "question": "العالم المرتبط بمعادلات الحركة الثلاث الشهيرة هو:",
-        "answer1": "فاراداي",
-        "answer2": "نيوتن",
-        "answer3": "جول",
-        "answer4": "ماكسويل",
+        "question": "القوة = ؟",
+        "answer1": "m/v",
+        "answer2": "ma",
+        "answer3": "mv",
+        "answer4": "m+a",
         "correctAnswer": "answer2"
       },
       {
         "number": 4,
-        "question": "في الفراغ تسير جميع الموجات الكهرومغناطيسية بسرعة:",
-        "answer1": "تختلف حسب التردد",
-        "answer2": "تختلف حسب الطاقة",
-        "answer3": "ثابتة",
-        "answer4": "تختلف حسب الطول الموجي",
-        "correctAnswer": "answer3"
+        "question": "الطاقة الحركية تعتمد على:",
+        "answer1": "السرعة²",
+        "answer2": "الكتلة فقط",
+        "answer3": "الزمن",
+        "answer4": "الضغط",
+        "correctAnswer": "answer1"
       },
       {
         "number": 5,
-        "question": "أي كمية متجهة؟",
-        "answer1": "الكتلة",
-        "answer2": "الزمن",
-        "answer3": "الشغل",
-        "answer4": "العجلة",
-        "correctAnswer": "answer4"
+        "question": "الفوتون هو:",
+        "answer1": "جسيم ضوئي",
+        "answer2": "إلكترون",
+        "answer3": "نيوترون",
+        "answer4": "بروتون",
+        "correctAnswer": "answer1"
       },
       {
         "number": 6,
-        "question": "في قانون أوم تمثل R:",
-        "answer1": "المقاومة",
-        "answer2": "التيار",
-        "answer3": "الجهد",
-        "answer4": "القدرة",
+        "question": "قانون أوم:",
+        "answer1": "V=IR",
+        "answer2": "F=ma",
+        "answer3": "E=mc²",
+        "answer4": "P=VI",
         "correctAnswer": "answer1"
       },
       {
         "number": 7,
-        "question": "ما الوحدة الأساسية للقدرة؟",
+        "question": "وحدة الشغل:",
         "answer1": "جول",
         "answer2": "وات",
         "answer3": "نيوتن",
         "answer4": "أمبير",
-        "correctAnswer": "answer2"
-      },
-      {
-        "number": 8,
-        "question": "الجسيم المسؤول عن القوة الكهرومغناطيسية هو:",
-        "answer1": "الغلوون",
-        "answer2": "البوزون W",
-        "answer3": "الفوتون",
-        "answer4": "النيوترينو",
-        "correctAnswer": "answer3"
-      },
-      {
-        "number": 9,
-        "question": "عند انعدام محصلة القوى المؤثرة على جسم فإنه:",
-        "answer1": "يتوقف دائمًا",
-        "answer2": "يتسارع",
-        "answer3": "يتحرك حركة دائرية",
-        "answer4": "يحافظ على حالته الحركية",
-        "correctAnswer": "answer4"
-      },
-      {
-        "number": 10,
-        "question": "أي قانون يربط الضغط والحجم عند ثبوت درجة الحرارة؟",
-        "answer1": "شارل",
-        "answer2": "بويل",
-        "answer3": "جاي لوساك",
-        "answer4": "أفوجادرو",
-        "correctAnswer": "answer2"
-      }
-    ]
-  },
-  {
-    "title": "الأدب",
-    "questions": [
-      {
-        "number": 1,
-        "question": "من قائل: الخيل والليل والبيداء تعرفني؟",
-        "answer1": "البحتري",
-        "answer2": "أبو تمام",
-        "answer3": "المتنبي",
-        "answer4": "أبو نواس",
-        "correctAnswer": "answer3"
-      },
-      {
-        "number": 2,
-        "question": "صاحب كتاب البخلاء هو:",
-        "answer1": "الجاحظ",
-        "answer2": "ابن المقفع",
-        "answer3": "المعري",
-        "answer4": "الرافعي",
         "correctAnswer": "answer1"
       },
       {
-        "number": 3,
-        "question": "من شاعر الحكمة الأشهر في العصر العباسي؟",
-        "answer1": "بشار بن برد",
-        "answer2": "أبو العتاهية",
-        "answer3": "أبو نواس",
-        "answer4": "دعبل الخزاعي",
+        "number": 8,
+        "question": "الموجات الكهرومغناطيسية:",
+        "answer1": "تحتاج وسط",
+        "answer2": "لا تحتاج وسط",
+        "answer3": "معدنية",
+        "answer4": "سائلة",
         "correctAnswer": "answer2"
       },
       {
+        "number": 9,
+        "question": "العجلة =",
+        "answer1": "v/t",
+        "answer2": "Δv/Δt",
+        "answer3": "m/t",
+        "answer4": "F/m²",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "القوة الجاذبة تعتمد على:",
+        "answer1": "الكتلة والمسافة",
+        "answer2": "الزمن",
+        "answer3": "الحرارة",
+        "answer4": "الطول فقط",
+        "correctAnswer": "answer1"
+      }
+    ]
+  },
+
+  {
+    "title": "الكيمياء",
+    "questions": [
+      {
+        "number": 1,
+        "question": "H2SO4 هو:",
+        "answer1": "حمض كبريتيك",
+        "answer2": "ملح",
+        "answer3": "قاعدة",
+        "answer4": "غاز",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "pH أقل من 7 يعني:",
+        "answer1": "قاعدي",
+        "answer2": "حمضي",
+        "answer3": "متعادل",
+        "answer4": "ملحي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "عدد أفوجادرو =",
+        "answer1": "6.02×10²³",
+        "answer2": "3×10⁸",
+        "answer3": "9.8",
+        "answer4": "1.6×10⁻¹⁹",
+        "correctAnswer": "answer1"
+      },
+      {
         "number": 4,
-        "question": "كاتب رواية البؤساء هو:",
-        "answer1": "بلزاك",
-        "answer2": "فيكتور هوغو",
-        "answer3": "زولا",
-        "answer4": "فلوبير",
+        "question": "الرابطة الأيونية:",
+        "answer1": "مشاركة إلكترونات",
+        "answer2": "انتقال إلكترونات",
+        "answer3": "نيوترونات",
+        "answer4": "بروتونات",
         "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "صاحب رسالة الغفران هو:",
-        "answer1": "المعري",
-        "answer2": "الجاحظ",
-        "answer3": "المتنبي",
-        "answer4": "ابن الرومي",
+        "question": "الأكسدة تعني:",
+        "answer1": "فقد إلكترونات",
+        "answer2": "كسب إلكترونات",
+        "answer3": "ثبات",
+        "answer4": "تحلل",
         "correctAnswer": "answer1"
       },
       {
         "number": 6,
-        "question": "من شعراء المعلقات؟",
-        "answer1": "أبو تمام",
-        "answer2": "امرؤ القيس",
-        "answer3": "المتنبي",
-        "answer4": "جرير",
+        "question": "CO2 مركب:",
+        "answer1": "عنصري",
+        "answer2": "مركب",
+        "answer3": "فلزي",
+        "answer4": "غاز نبيل",
         "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "كاتب مسرحية هاملت هو:",
-        "answer1": "ديكنز",
-        "answer2": "ميلتون",
-        "answer3": "شكسبير",
-        "answer4": "بايرون",
-        "correctAnswer": "answer3"
+        "question": "الماء:",
+        "answer1": "قطبي",
+        "answer2": "غير قطبي",
+        "answer3": "فلزي",
+        "answer4": "صلب",
+        "correctAnswer": "answer1"
       },
       {
         "number": 8,
-        "question": "من رواد مدرسة الإحياء والبعث؟",
-        "answer1": "أحمد شوقي",
-        "answer2": "السياب",
-        "answer3": "صلاح عبد الصبور",
-        "answer4": "نازك الملائكة",
+        "question": "NaCl هو:",
+        "answer1": "حمض",
+        "answer2": "ملح",
+        "answer3": "غاز",
+        "answer4": "فلز",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "عدد الإلكترونات في الذرة المتعادلة =",
+        "answer1": "البروتونات",
+        "answer2": "النيوترونات",
+        "answer3": "الكتلة",
+        "answer4": "الطاقة",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 10,
+        "question": "الاحتراق يحتاج:",
+        "answer1": "أكسجين",
+        "answer2": "هيليوم",
+        "answer3": "نيتروجين",
+        "answer4": "كربون فقط",
+        "correctAnswer": "answer1"
+      }
+    ]
+  },
+
+  {
+    "title": "التاريخ",
+    "questions": [
+      {
+        "number": 1,
+        "question": "الحرب العالمية الأولى بدأت:",
+        "answer1": "1914",
+        "answer2": "1939",
+        "answer3": "1920",
+        "answer4": "1918",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "سقوط القسطنطينية:",
+        "answer1": "1453",
+        "answer2": "1492",
+        "answer3": "1517",
+        "answer4": "1600",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 3,
+        "question": "الثورة الفرنسية:",
+        "answer1": "1789",
+        "answer2": "1770",
+        "answer3": "1800",
+        "answer4": "1810",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 4,
+        "question": "سايكس بيكو:",
+        "answer1": "1916",
+        "answer2": "1920",
+        "answer3": "1930",
+        "answer4": "1940",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 5,
+        "question": "الحرب الباردة بين:",
+        "answer1": "أمريكا وروسيا",
+        "answer2": "فرنسا وألمانيا",
+        "answer3": "الصين واليابان",
+        "answer4": "إنجلترا وإسبانيا",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "الأندلس سقطت:",
+        "answer1": "1492",
+        "answer2": "1450",
+        "answer3": "1500",
+        "answer4": "1600",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "الإمبراطورية العثمانية انتهت:",
+        "answer1": "1922",
+        "answer2": "1918",
+        "answer3": "1930",
+        "answer4": "1940",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 8,
+        "question": "ثورة 1919 في:",
+        "answer1": "مصر",
+        "answer2": "سوريا",
+        "answer3": "العراق",
+        "answer4": "المغرب",
         "correctAnswer": "answer1"
       },
       {
         "number": 9,
-        "question": "من صاحب رواية الحرب والسلام؟",
-        "answer1": "دوستويفسكي",
-        "answer2": "تولستوي",
-        "answer3": "تشيخوف",
-        "answer4": "غوركي",
+        "question": "أول حضارة:",
+        "answer1": "السومرية",
+        "answer2": "المصرية",
+        "answer3": "الرومانية",
+        "answer4": "اليونانية",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 10,
+        "question": "الحرب العالمية الثانية:",
+        "answer1": "1939",
+        "answer2": "1914",
+        "answer3": "1950",
+        "answer4": "1925",
+        "correctAnswer": "answer1"
+      }
+    ]
+  },
+
+  {
+    "title": "الجغرافيا",
+    "questions": [
+      {
+        "number": 1,
+        "question": "أطول نهر:",
+        "answer1": "الأمازون",
+        "answer2": "النيل",
+        "answer3": "المسيسيبي",
+        "answer4": "الدانوب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "أكبر قارة:",
+        "answer1": "آسيا",
+        "answer2": "أفريقيا",
+        "answer3": "أوروبا",
+        "answer4": "أمريكا",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 3,
+        "question": "أكبر محيط:",
+        "answer1": "الهادئ",
+        "answer2": "الأطلسي",
+        "answer3": "الهندي",
+        "answer4": "المتجمد",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 4,
+        "question": "أعلى جبل:",
+        "answer1": "إيفرست",
+        "answer2": "الألب",
+        "answer3": "الأنديز",
+        "answer4": "كليمنجارو",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 5,
+        "question": "عدد القارات:",
+        "answer1": "7",
+        "answer2": "6",
+        "answer3": "5",
+        "answer4": "8",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "الصحراء الكبرى:",
+        "answer1": "أفريقيا",
+        "answer2": "آسيا",
+        "answer3": "أوروبا",
+        "answer4": "أمريكا",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "أكبر دولة:",
+        "answer1": "روسيا",
+        "answer2": "الصين",
+        "answer3": "أمريكا",
+        "answer4": "كندا",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 8,
+        "question": "خط الاستواء:",
+        "answer1": "شمال/جنوب",
+        "answer2": "شرق/غرب",
+        "answer3": "قارات",
+        "answer4": "بحار",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 9,
+        "question": "أكبر دولة عربية:",
+        "answer1": "الجزائر",
+        "answer2": "مصر",
+        "answer3": "السعودية",
+        "answer4": "السودان",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 10,
+        "question": "أعلى هضبة:",
+        "answer1": "التبت",
+        "answer2": "أناضول",
+        "answer3": "النجف",
+        "answer4": "الجزيرة",
+        "correctAnswer": "answer1"
+      }
+    ]
+  },
+
+  {
+    "title": "علوم الحاسوب",
+    "questions": [
+      {
+        "number": 1,
+        "question": "O(1) تعني:",
+        "answer1": "ثابت",
+        "answer2": "خطّي",
+        "answer3": "لوغاريتمي",
+        "answer4": "تربيعي",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "Binary Search:",
+        "answer1": "O(n)",
+        "answer2": "O(log n)",
+        "answer3": "O(n²)",
+        "answer4": "O(1)",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "Stack Overflow يعني:",
+        "answer1": "امتلاء المكدس",
+        "answer2": "شبكة",
+        "answer3": "RAM",
+        "answer4": "CPU",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 4,
+        "question": "Git يستخدم في:",
+        "answer1": "التصميم",
+        "answer2": "إدارة الإصدارات",
+        "answer3": "الألعاب",
+        "answer4": "الطباعة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "React هي:",
+        "answer1": "لغة",
+        "answer2": "مكتبة",
+        "answer3": "نظام",
+        "answer4": "قاعدة بيانات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "HTTP:",
+        "answer1": "نقل ويب",
+        "answer2": "تخزين",
+        "answer3": "معالج",
+        "answer4": "شبكة داخلية",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "CPU:",
+        "answer1": "معالج",
+        "answer2": "ذاكرة",
+        "answer3": "قرص",
+        "answer4": "شاشة",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 8,
+        "question": "RAM:",
+        "answer1": "تخزين دائم",
+        "answer2": "تخزين مؤقت",
+        "answer3": "شبكة",
+        "answer4": "برمجة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "HTML:",
+        "answer1": "هيكل",
+        "answer2": "منطق",
+        "answer3": "شبكة",
+        "answer4": "قاعدة بيانات",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 10,
+        "question": "CSS:",
+        "answer1": "منطق",
+        "answer2": "تصميم",
+        "answer3": "بيانات",
+        "answer4": "شبكة",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+
+  {
+    "title": "الثقافة العامة",
+    "questions": [
+      {
+        "number": 1,
+        "question": "عاصمة اليابان:",
+        "answer1": "طوكيو",
+        "answer2": "كيوتو",
+        "answer3": "أوساكا",
+        "answer4": "نارا",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "أكبر كوكب:",
+        "answer1": "المشتري",
+        "answer2": "زحل",
+        "answer3": "الأرض",
+        "answer4": "المريخ",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 3,
+        "question": "عدد كواكب المجموعة:",
+        "answer1": "8",
+        "answer2": "9",
+        "answer3": "7",
+        "answer4": "10",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 4,
+        "question": "أسرع حيوان:",
+        "answer1": "الفهد",
+        "answer2": "الأسد",
+        "answer3": "النمر",
+        "answer4": "الذئب",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 5,
+        "question": "عملة مصر:",
+        "answer1": "جنيه",
+        "answer2": "دينار",
+        "answer3": "ريال",
+        "answer4": "درهم",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "أول إنسان على القمر:",
+        "answer1": "أرمسترونغ",
+        "answer2": "غاغارين",
+        "answer3": "ألدرن",
+        "answer4": "كولينز",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "أكبر محيط:",
+        "answer1": "الهادئ",
+        "answer2": "الأطلسي",
+        "answer3": "الهندي",
+        "answer4": "المتجمد",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 8,
+        "question": "أكبر دولة عربية:",
+        "answer1": "الجزائر",
+        "answer2": "السعودية",
+        "answer3": "مصر",
+        "answer4": "السودان",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 9,
+        "question": "عدد أيام السنة الكبيسة:",
+        "answer1": "365",
+        "answer2": "366",
+        "answer3": "364",
+        "answer4": "360",
         "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "من شاعر النيل؟",
-        "answer1": "أحمد شوقي",
-        "answer2": "حافظ إبراهيم",
-        "answer3": "خليل مطران",
-        "answer4": "إسماعيل صبري",
-        "correctAnswer": "answer2"
+        "question": "رمز الماء:",
+        "answer1": "H2O",
+        "answer2": "CO2",
+        "answer3": "O2",
+        "answer4": "NaCl",
+        "correctAnswer": "answer1"
       }
     ]
   }
