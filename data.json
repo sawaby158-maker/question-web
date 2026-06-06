@@ -1,0 +1,382 @@
+[
+  {
+    "title": "HTML",
+    "questions": [
+      {
+        "number": 1,
+        "question": "أي عنصر يُعد Phrasing Content فقط وفق HTML Living Standard؟",
+        "answer1": "<article>",
+        "answer2": "<section>",
+        "answer3": "<span>",
+        "answer4": "<aside>",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "أي عنصر لا يُسمح بوضعه مباشرة داخل <ul>؟",
+        "answer1": "<li>",
+        "answer2": "<script>",
+        "answer3": "<template>",
+        "answer4": "<div>",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 3,
+        "question": "أي Attribute يُستخدم لتحديد علاقة الصفحة الحالية بصفحة أخرى؟",
+        "answer1": "rel",
+        "answer2": "ref",
+        "answer3": "link",
+        "answer4": "target",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 4,
+        "question": "أي عنصر يُستخدم لتمثيل محتوى مستقل يمكن توزيعه منفردًا؟",
+        "answer1": "<section>",
+        "answer2": "<article>",
+        "answer3": "<main>",
+        "answer4": "<div>",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "أي قيمة لـ preload تجعل المتصفح يجلب بيانات وصفية فقط للفيديو؟",
+        "answer1": "auto",
+        "answer2": "none",
+        "answer3": "metadata",
+        "answer4": "lazy",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "أي عنصر يُستخدم لتوفير بدائل وسائط داخل picture؟",
+        "answer1": "<resource>",
+        "answer2": "<media>",
+        "answer3": "<source>",
+        "answer4": "<imgset>",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "أي عنصر يمثل عنوانًا لمجموعة عناصر داخل fieldset؟",
+        "answer1": "<label>",
+        "answer2": "<caption>",
+        "answer3": "<legend>",
+        "answer4": "<summary>",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "أي عنصر يُستخدم للكشف والإخفاء بشكل افتراضي؟",
+        "answer1": "<dialog>",
+        "answer2": "<summary>",
+        "answer3": "<details>",
+        "answer4": "<toggle>",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "ما العنصر الذي يمثل ناتج عملية حسابية أو إجراء برمجي؟",
+        "answer1": "<code>",
+        "answer2": "<result>",
+        "answer3": "<var>",
+        "answer4": "<output>",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 10,
+        "question": "أي عنصر يُستخدم لتحديد تاريخ أو وقت بصيغة قابلة للمعالجة آليًا؟",
+        "answer1": "<clock>",
+        "answer2": "<date>",
+        "answer3": "<datetime>",
+        "answer4": "<time>",
+        "correctAnswer": "answer4"
+      }
+    ]
+  },
+  {
+    "title": "كرة القدم",
+    "questions": [
+      {
+        "number": 1,
+        "question": "من صاحب الرقم القياسي لعدد الأهداف في نسخة واحدة من كأس العالم للرجال؟",
+        "answer1": "جوست فونتين",
+        "answer2": "جيرد مولر",
+        "answer3": "ساندور كوتشيس",
+        "answer4": "بيليه",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "أي منتخب فاز بأول بطولة كأس عالم عام 1930؟",
+        "answer1": "الأرجنتين",
+        "answer2": "البرازيل",
+        "answer3": "الأوروغواي",
+        "answer4": "إيطاليا",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "في أي نادٍ حقق يوهان كرويف ثلاث كؤوس أوروبية متتالية لاعبًا؟",
+        "answer1": "برشلونة",
+        "answer2": "أياكس",
+        "answer3": "فينورد",
+        "answer4": "آيندهوفن",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "من أول لاعب يسجل في خمس نسخ مختلفة من كأس العالم؟",
+        "answer1": "ليونيل ميسي",
+        "answer2": "ميروسلاف كلوزه",
+        "answer3": "كريستيانو رونالدو",
+        "answer4": "بيليه",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 5,
+        "question": "أي نادٍ يُلقب بالسيدة العجوز؟",
+        "answer1": "ميلان",
+        "answer2": "إنتر",
+        "answer3": "لاتسيو",
+        "answer4": "يوفنتوس",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 6,
+        "question": "من صاحب الكرة الذهبية في كأس العالم 1998؟",
+        "answer1": "رونالدو نازاريو",
+        "answer2": "زيدان",
+        "answer3": "ريفالدو",
+        "answer4": "سوكر",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "أي منتخب خسر نهائي كأس العالم 3 مرات متتالية بين 1974 و1990؟",
+        "answer1": "الأرجنتين",
+        "answer2": "ألمانيا الغربية",
+        "answer3": "هولندا",
+        "answer4": "البرازيل",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "كم عدد اللاعبين الأساسيين داخل الملعب للفريق الواحد؟",
+        "answer1": "10",
+        "answer2": "12",
+        "answer3": "11",
+        "answer4": "9",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "من الهداف التاريخي لكأس العالم للرجال؟",
+        "answer1": "رونالدو",
+        "answer2": "كلوزه",
+        "answer3": "مولر",
+        "answer4": "ميسي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "أي منتخب فاز بيورو 2004؟",
+        "answer1": "اليونان",
+        "answer2": "البرتغال",
+        "answer3": "فرنسا",
+        "answer4": "إسبانيا",
+        "correctAnswer": "answer1"
+      }
+    ]
+  },
+  {
+    "title": "الفيزياء",
+    "questions": [
+      {
+        "number": 1,
+        "question": "إذا تضاعفت سرعة جسم فإن طاقته الحركية تصبح:",
+        "answer1": "ضعفين",
+        "answer2": "ثلاثة أضعاف",
+        "answer3": "أربعة أضعاف",
+        "answer4": "ثمانية أضعاف",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "وحدة قياس الفيض المغناطيسي هي:",
+        "answer1": "تسلا",
+        "answer2": "ويبر",
+        "answer3": "هنري",
+        "answer4": "فولت",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "العالم المرتبط بمعادلات الحركة الثلاث الشهيرة هو:",
+        "answer1": "فاراداي",
+        "answer2": "نيوتن",
+        "answer3": "جول",
+        "answer4": "ماكسويل",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "في الفراغ تسير جميع الموجات الكهرومغناطيسية بسرعة:",
+        "answer1": "تختلف حسب التردد",
+        "answer2": "تختلف حسب الطاقة",
+        "answer3": "ثابتة",
+        "answer4": "تختلف حسب الطول الموجي",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 5,
+        "question": "أي كمية متجهة؟",
+        "answer1": "الكتلة",
+        "answer2": "الزمن",
+        "answer3": "الشغل",
+        "answer4": "العجلة",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 6,
+        "question": "في قانون أوم تمثل R:",
+        "answer1": "المقاومة",
+        "answer2": "التيار",
+        "answer3": "الجهد",
+        "answer4": "القدرة",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "ما الوحدة الأساسية للقدرة؟",
+        "answer1": "جول",
+        "answer2": "وات",
+        "answer3": "نيوتن",
+        "answer4": "أمبير",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "الجسيم المسؤول عن القوة الكهرومغناطيسية هو:",
+        "answer1": "الغلوون",
+        "answer2": "البوزون W",
+        "answer3": "الفوتون",
+        "answer4": "النيوترينو",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "عند انعدام محصلة القوى المؤثرة على جسم فإنه:",
+        "answer1": "يتوقف دائمًا",
+        "answer2": "يتسارع",
+        "answer3": "يتحرك حركة دائرية",
+        "answer4": "يحافظ على حالته الحركية",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 10,
+        "question": "أي قانون يربط الضغط والحجم عند ثبوت درجة الحرارة؟",
+        "answer1": "شارل",
+        "answer2": "بويل",
+        "answer3": "جاي لوساك",
+        "answer4": "أفوجادرو",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الأدب",
+    "questions": [
+      {
+        "number": 1,
+        "question": "من قائل: الخيل والليل والبيداء تعرفني؟",
+        "answer1": "البحتري",
+        "answer2": "أبو تمام",
+        "answer3": "المتنبي",
+        "answer4": "أبو نواس",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "صاحب كتاب البخلاء هو:",
+        "answer1": "الجاحظ",
+        "answer2": "ابن المقفع",
+        "answer3": "المعري",
+        "answer4": "الرافعي",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 3,
+        "question": "من شاعر الحكمة الأشهر في العصر العباسي؟",
+        "answer1": "بشار بن برد",
+        "answer2": "أبو العتاهية",
+        "answer3": "أبو نواس",
+        "answer4": "دعبل الخزاعي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "كاتب رواية البؤساء هو:",
+        "answer1": "بلزاك",
+        "answer2": "فيكتور هوغو",
+        "answer3": "زولا",
+        "answer4": "فلوبير",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "صاحب رسالة الغفران هو:",
+        "answer1": "المعري",
+        "answer2": "الجاحظ",
+        "answer3": "المتنبي",
+        "answer4": "ابن الرومي",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "من شعراء المعلقات؟",
+        "answer1": "أبو تمام",
+        "answer2": "امرؤ القيس",
+        "answer3": "المتنبي",
+        "answer4": "جرير",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "كاتب مسرحية هاملت هو:",
+        "answer1": "ديكنز",
+        "answer2": "ميلتون",
+        "answer3": "شكسبير",
+        "answer4": "بايرون",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "من رواد مدرسة الإحياء والبعث؟",
+        "answer1": "أحمد شوقي",
+        "answer2": "السياب",
+        "answer3": "صلاح عبد الصبور",
+        "answer4": "نازك الملائكة",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 9,
+        "question": "من صاحب رواية الحرب والسلام؟",
+        "answer1": "دوستويفسكي",
+        "answer2": "تولستوي",
+        "answer3": "تشيخوف",
+        "answer4": "غوركي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "من شاعر النيل؟",
+        "answer1": "أحمد شوقي",
+        "answer2": "حافظ إبراهيم",
+        "answer3": "خليل مطران",
+        "answer4": "إسماعيل صبري",
+        "correctAnswer": "answer2"
+      }
+    ]
+  }
+]
