@@ -4,765 +4,2564 @@
     "questions": [
       {
         "number": 1,
-        "question": "ما وظيفة Shadow DOM؟",
-        "answer1": "عزل الـ DOM",
-        "answer2": "تحسين السرعة فقط",
-        "answer3": "حذف CSS",
-        "answer4": "تشغيل JS",
-        "correctAnswer": "answer1"
+        "question": "ما الفرق بين الخاصيتين async و defer في عنصر script؟",
+        "answer1": "async ينفذ بعد DOM، defer ينفذ فوراً",
+        "answer2": "defer ينفذ بعد اكتمال DOM بالترتيب، async ينفذ فور التحميل",
+        "answer3": "لا فرق بينهما",
+        "answer4": "defer يوقف تحميل الصفحة",
+        "correctAnswer": "answer2"
       },
       {
         "number": 2,
-        "question": "أي عنصر يعتبر Sectioning Root؟",
+        "question": "أي من الآتي يُعدّ Void Element في HTML5؟",
         "answer1": "<div>",
-        "answer2": "<body>",
-        "answer3": "<section>",
-        "answer4": "<main>",
-        "correctAnswer": "answer2"
+        "answer2": "<span>",
+        "answer3": "<input>",
+        "answer4": "<section>",
+        "correctAnswer": "answer3"
       },
       {
         "number": 3,
-        "question": "ما فائدة defer في script؟",
-        "answer1": "تنفيذه فورًا",
-        "answer2": "بعد DOM",
-        "answer3": "إيقاف الصفحة",
-        "answer4": "حذف JS",
-        "correctAnswer": "answer2"
+        "question": "ما وظيفة الخاصية tabindex='-1' في HTML؟",
+        "answer1": "تجعل العنصر أول شيء يُركّز عليه",
+        "answer2": "تُخفي العنصر من شاشات قارئ الشاشة",
+        "answer3": "تُتيح التركيز على العنصر برمجياً فقط دون Tab",
+        "answer4": "تحذف العنصر من الـ DOM",
+        "correctAnswer": "answer3"
       },
       {
         "number": 4,
-        "question": "ما وظيفة <template>؟",
-        "answer1": "عرض مباشر",
-        "answer2": "تخزين غير مفعّل",
-        "answer3": "تحميل CSS",
-        "answer4": "تشغيل API",
+        "question": "ما الفرق بين العنصرين <article> و <section>؟",
+        "answer1": "لا فرق، كلاهما حاويات",
+        "answer2": "article محتوى مستقل قائم بذاته، section تقسيم موضوعي ضمن سياق",
+        "answer3": "section أكبر من article دائماً",
+        "answer4": "article للنصوص فقط، section للصور",
         "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "أي عنصر يمنع داخله interactive content؟",
-        "answer1": "<p>",
-        "answer2": "<div>",
-        "answer3": "<span>",
-        "answer4": "<a>",
-        "correctAnswer": "answer1"
+        "question": "ما هو الـ Content Model الخاص بعنصر <button>؟",
+        "answer1": "Flow Content فقط",
+        "answer2": "Phrasing Content مع استثناء Interactive Content",
+        "answer3": "Metadata Content",
+        "answer4": "Embedded Content فقط",
+        "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "ما معنى srcset؟",
-        "answer1": "CSS set",
-        "answer2": "صور متعددة",
-        "answer3": "JS set",
-        "answer4": "روابط",
+        "question": "ما وظيفة خاصية rel='noopener' مع الرابط target='_blank'؟",
+        "answer1": "تمنع فتح الرابط في تبويب جديد",
+        "answer2": "تمنع الصفحة الجديدة من الوصول لـ window.opener",
+        "answer3": "تُحسّن SEO",
+        "answer4": "تُضيف تأثير بصري للرابط",
         "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "أي عنصر يستخدم لربط CSS خارجي؟",
-        "answer1": "<style>",
-        "answer2": "<css>",
-        "answer3": "<link>",
-        "answer4": "<script>",
+        "question": "أي DOCTYPE صحيح لـ HTML5؟",
+        "answer1": "<!DOCTYPE html PUBLIC>",
+        "answer2": "<!DOCTYPE HTML5>",
+        "answer3": "<!DOCTYPE html>",
+        "answer4": "<html doctype='5'>",
         "correctAnswer": "answer3"
       },
       {
         "number": 8,
-        "question": "ما فائدة alt؟",
-        "answer1": "SEO فقط",
-        "answer2": "وصف الصورة",
-        "answer3": "سرعة",
-        "answer4": "حذف الصورة",
+        "question": "ما الفرق بين <strong> و <b> دلالياً؟",
+        "answer1": "لا فرق، كلاهما يُغمّق النص",
+        "answer2": "strong يُفيد بأهمية المحتوى دلالياً، b تغميق بصري فقط",
+        "answer3": "b أقوى من strong",
+        "answer4": "strong للعناوين فقط",
         "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "ما وظيفة <meta charset>؟",
-        "answer1": "CSS",
-        "answer2": "ترميز النص",
-        "answer3": "JS",
-        "answer4": "صور",
+        "question": "ما وظيفة خاصية crossorigin في عنصر <img>؟",
+        "answer1": "تُحدد حجم الصورة",
+        "answer2": "تُتيح استخدام الصورة في Canvas دون تلوث CORS",
+        "answer3": "تُسرّع تحميل الصورة",
+        "answer4": "تُخفي الصورة",
         "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "ما الفرق بين id و class؟",
-        "answer1": "لا فرق",
-        "answer2": "id فريد",
-        "answer3": "class فريد",
-        "answer4": "كلاهما CSS فقط",
+        "question": "ما الغرض من خاصية loading='lazy' في الصور؟",
+        "answer1": "تُحمّل الصورة فوراً عند فتح الصفحة",
+        "answer2": "تؤخر تحميل الصورة حتى تقترب من نطاق العرض",
+        "answer3": "تمنع تحميل الصورة نهائياً",
+        "answer4": "تُصغّر حجم الصورة تلقائياً",
         "correctAnswer": "answer2"
       }
     ]
   },
-
   {
     "title": "الرياضيات",
     "questions": [
       {
         "number": 1,
-        "question": "مشتقة x^x =",
-        "answer1": "x^x",
-        "answer2": "x^x(ln x + 1)",
-        "answer3": "ln x",
-        "answer4": "x",
-        "correctAnswer": "answer2"
+        "question": "إذا كان f(x) = xˢⁱⁿˣ، ما مشتقة f عند x = π/2؟",
+        "answer1": "1",
+        "answer2": "0",
+        "answer3": "π/2",
+        "answer4": "-1",
+        "correctAnswer": "answer1"
       },
       {
         "number": 2,
-        "question": "lim x→0 sinx/x =",
-        "answer1": "0",
-        "answer2": "1",
-        "answer3": "∞",
-        "answer4": "-1",
-        "correctAnswer": "answer2"
+        "question": "ما قيمة: lim عندما x←∞ لـ (1 + 1/x)ˣ ؟",
+        "answer1": "1",
+        "answer2": "∞",
+        "answer3": "e",
+        "answer4": "0",
+        "correctAnswer": "answer3"
       },
       {
         "number": 3,
-        "question": "∫x dx من 0 إلى 2 =",
-        "answer1": "2",
-        "answer2": "4",
-        "answer3": "1",
-        "answer4": "3",
-        "correctAnswer": "answer1"
+        "question": "ما ناتج التكامل ∫ من 0 إلى π لـ sin²(x) dx ؟",
+        "answer1": "π",
+        "answer2": "π/2",
+        "answer3": "0",
+        "answer4": "2π",
+        "correctAnswer": "answer2"
       },
       {
         "number": 4,
-        "question": "det([[1,2],[3,4]]) =",
-        "answer1": "-2",
-        "answer2": "2",
-        "answer3": "1",
-        "answer4": "0",
-        "correctAnswer": "answer1"
+        "question": "ما رتبة المصفوفة إذا كان حاصل ضربها بمعكوسها يساوي مصفوفة الوحدة وكانت قيمة det = -5؟",
+        "answer1": "غير محددة",
+        "answer2": "المصفوفة منفردة",
+        "answer3": "المصفوفة منتظمة (invertible)",
+        "answer4": "det يجب أن يكون 1",
+        "correctAnswer": "answer3"
       },
       {
         "number": 5,
-        "question": "log(100) =",
-        "answer1": "1",
-        "answer2": "2",
-        "answer3": "10",
-        "answer4": "100",
+        "question": "ما قيمة log₂(128) ؟",
+        "answer1": "6",
+        "answer2": "7",
+        "answer3": "8",
+        "answer4": "5",
         "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "sin²x + cos²x =",
-        "answer1": "0",
-        "answer2": "1",
-        "answer3": "2",
-        "answer4": "x",
+        "question": "إذا كانت سلسلة هندسية حدها الأول 3 وأساسها 1/3، ما مجموعها إلى ما لا نهاية؟",
+        "answer1": "3",
+        "answer2": "4.5",
+        "answer3": "9",
+        "answer4": "∞",
         "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "جذر 144 =",
-        "answer1": "10",
-        "answer2": "11",
-        "answer3": "12",
-        "answer4": "13",
+        "question": "ما عدد الحلول الحقيقية للمعادلة: x⁴ - 5x² + 4 = 0 ؟",
+        "answer1": "2",
+        "answer2": "3",
+        "answer3": "4",
+        "answer4": "1",
         "correctAnswer": "answer3"
       },
       {
         "number": 8,
-        "question": "عدد أولي:",
-        "answer1": "21",
-        "answer2": "27",
-        "answer3": "29",
-        "answer4": "33",
-        "correctAnswer": "answer3"
+        "question": "ما قيمة sin(75°) بصيغة مبسطة؟",
+        "answer1": "(√6 + √2) / 4",
+        "answer2": "(√3 + 1) / 2",
+        "answer3": "√3 / 2",
+        "answer4": "(√6 - √2) / 4",
+        "correctAnswer": "answer1"
       },
       {
         "number": 9,
-        "question": "محيط الدائرة =",
-        "answer1": "πr²",
-        "answer2": "2πr",
-        "answer3": "πd²",
-        "answer4": "r²",
-        "correctAnswer": "answer2"
+        "question": "ما مساحة المثلث الذي رؤوسه: (0,0)، (4,0)، (0,3) ؟",
+        "answer1": "12",
+        "answer2": "7",
+        "answer3": "6",
+        "answer4": "5",
+        "correctAnswer": "answer3"
       },
       {
         "number": 10,
-        "question": "مجموع زوايا المثلث =",
-        "answer1": "90",
-        "answer2": "180",
-        "answer3": "270",
-        "answer4": "360",
-        "correctAnswer": "answer2"
+        "question": "ما قيمة e⁰ + ln(1) ؟",
+        "answer1": "2",
+        "answer2": "0",
+        "answer3": "1",
+        "answer4": "e",
+        "correctAnswer": "answer3"
       }
     ]
   },
-
   {
     "title": "الفيزياء",
     "questions": [
       {
         "number": 1,
-        "question": "E=mc² يمثل:",
-        "answer1": "نيوتن",
-        "answer2": "أينشتاين",
-        "answer3": "فاراداي",
-        "answer4": "أوم",
-        "correctAnswer": "answer2"
-      },
-      {
-        "number": 2,
-        "question": "سرعة الضوء:",
-        "answer1": "3×10⁸",
-        "answer2": "3×10⁶",
-        "answer3": "3×10⁵",
-        "answer4": "3×10⁷",
+        "question": "ما الذي يحدث لطاقة الفوتون عند مضاعفة تردد الضوء؟",
+        "answer1": "تتضاعف",
+        "answer2": "تتربع",
+        "answer3": "تنصّف",
+        "answer4": "تبقى ثابتة",
         "correctAnswer": "answer1"
       },
       {
-        "number": 3,
-        "question": "القوة = ؟",
-        "answer1": "m/v",
-        "answer2": "ma",
-        "answer3": "mv",
-        "answer4": "m+a",
+        "number": 2,
+        "question": "جسم كتلته 2kg يتحرك بسرعة 3 m/s، ما زخمه؟",
+        "answer1": "5 kg·m/s",
+        "answer2": "6 kg·m/s",
+        "answer3": "9 kg·m/s",
+        "answer4": "1.5 kg·m/s",
         "correctAnswer": "answer2"
       },
       {
+        "number": 3,
+        "question": "ما مبدأ عدم اليقين لهايزنبرغ؟",
+        "answer1": "لا يمكن قياس موضع وسرعة جسيم بدقة في آن واحد",
+        "answer2": "الطاقة تتحول ولا تُفنى",
+        "answer3": "سرعة الضوء ثابتة في كل الأطر",
+        "answer4": "لكل فعل ردّ فعل مساوٍ",
+        "correctAnswer": "answer1"
+      },
+      {
         "number": 4,
-        "question": "الطاقة الحركية تعتمد على:",
-        "answer1": "السرعة²",
-        "answer2": "الكتلة فقط",
-        "answer3": "الزمن",
-        "answer4": "الضغط",
+        "question": "مكثف شحنته Q وسعته C، ما الطاقة المختزنة فيه؟",
+        "answer1": "Q² / (2C)",
+        "answer2": "QC / 2",
+        "answer3": "Q / C",
+        "answer4": "2QC",
         "correctAnswer": "answer1"
       },
       {
         "number": 5,
-        "question": "الفوتون هو:",
-        "answer1": "جسيم ضوئي",
-        "answer2": "إلكترون",
-        "answer3": "نيوترون",
-        "answer4": "بروتون",
-        "correctAnswer": "answer1"
+        "question": "ما ظاهرة دوبلر في الصوت؟",
+        "answer1": "تغيّر شدة الصوت مع البُعد",
+        "answer2": "تغيّر تردد الصوت المسموع عند حركة المصدر أو المستمع",
+        "answer3": "انعكاس الصوت",
+        "answer4": "امتصاص الصوت في الفراغ",
+        "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "قانون أوم:",
-        "answer1": "V=IR",
-        "answer2": "F=ma",
-        "answer3": "E=mc²",
-        "answer4": "P=VI",
-        "correctAnswer": "answer1"
+        "question": "ما قيمة g على سطح القمر تقريباً مقارنة بالأرض؟",
+        "answer1": "نفسها",
+        "answer2": "نصفها",
+        "answer3": "سُدسها",
+        "answer4": "ربعها",
+        "correctAnswer": "answer3"
       },
       {
         "number": 7,
-        "question": "وحدة الشغل:",
-        "answer1": "جول",
-        "answer2": "وات",
-        "answer3": "نيوتن",
-        "answer4": "أمبير",
-        "correctAnswer": "answer1"
+        "question": "ما الفرق بين الموصل والعازل على مستوى نطاقات الطاقة؟",
+        "answer1": "الموصل لديه فجوة طاقة كبيرة، العازل فجوة صغيرة",
+        "answer2": "الموصل فجوة طاقة معدومة أو صغيرة جداً، العازل فجوة كبيرة",
+        "answer3": "لا فرق في نطاقات الطاقة",
+        "answer4": "الموصل يمتلك نيوترونات أكثر",
+        "correctAnswer": "answer2"
       },
       {
         "number": 8,
-        "question": "الموجات الكهرومغناطيسية:",
-        "answer1": "تحتاج وسط",
-        "answer2": "لا تحتاج وسط",
-        "answer3": "معدنية",
-        "answer4": "سائلة",
+        "question": "ما تأثير تربيع السرعة في معادلة الطاقة الحركية (½mv²)؟",
+        "answer1": "مضاعفة السرعة تُضاعف الطاقة",
+        "answer2": "مضاعفة السرعة تُربّع الطاقة الحركية",
+        "answer3": "لا تأثير للسرعة",
+        "answer4": "مضاعفة السرعة تُنصّف الطاقة",
         "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "العجلة =",
-        "answer1": "v/t",
-        "answer2": "Δv/Δt",
-        "answer3": "m/t",
-        "answer4": "F/m²",
-        "correctAnswer": "answer2"
+        "question": "ما المقصود بالنصف عمر في الفيزياء النووية؟",
+        "answer1": "الزمن اللازم لتحلل نصف كمية العينة المشعة",
+        "answer2": "نصف عمر الذرة",
+        "answer3": "زمن تحلل كامل المادة",
+        "answer4": "سرعة الإشعاع",
+        "correctAnswer": "answer1"
       },
       {
         "number": 10,
-        "question": "القوة الجاذبة تعتمد على:",
-        "answer1": "الكتلة والمسافة",
-        "answer2": "الزمن",
-        "answer3": "الحرارة",
-        "answer4": "الطول فقط",
-        "correctAnswer": "answer1"
+        "question": "ما الذي يُحدد لون الضوء المرئي؟",
+        "answer1": "السعة",
+        "answer2": "الشدة",
+        "answer3": "التردد (أو الطول الموجي)",
+        "answer4": "الزخم",
+        "correctAnswer": "answer3"
       }
     ]
   },
-
   {
     "title": "الكيمياء",
     "questions": [
       {
         "number": 1,
-        "question": "H2SO4 هو:",
-        "answer1": "حمض كبريتيك",
-        "answer2": "ملح",
-        "answer3": "قاعدة",
-        "answer4": "غاز",
-        "correctAnswer": "answer1"
-      },
-      {
-        "number": 2,
-        "question": "pH أقل من 7 يعني:",
-        "answer1": "قاعدي",
-        "answer2": "حمضي",
-        "answer3": "متعادل",
-        "answer4": "ملحي",
+        "question": "ما ترتيب الإلكترونات في المستوى الثالث (n=3)؟",
+        "answer1": "3s فقط",
+        "answer2": "3s، 3p، 3d",
+        "answer3": "3s، 3p فقط",
+        "answer4": "3d فقط",
         "correctAnswer": "answer2"
       },
       {
+        "number": 2,
+        "question": "ما نوع التهجين في جزيء الميثان CH₄؟",
+        "answer1": "sp",
+        "answer2": "sp²",
+        "answer3": "sp³",
+        "answer4": "sp³d",
+        "correctAnswer": "answer3"
+      },
+      {
         "number": 3,
-        "question": "عدد أفوجادرو =",
-        "answer1": "6.02×10²³",
-        "answer2": "3×10⁸",
-        "answer3": "9.8",
-        "answer4": "1.6×10⁻¹⁹",
-        "correctAnswer": "answer1"
+        "question": "ما العامل الذي يُبطئ التفاعل الكيميائي بشكل عام؟",
+        "answer1": "رفع درجة الحرارة",
+        "answer2": "زيادة التركيز",
+        "answer3": "خفض درجة الحرارة",
+        "answer4": "إضافة المحفّز",
+        "correctAnswer": "answer3"
       },
       {
         "number": 4,
-        "question": "الرابطة الأيونية:",
-        "answer1": "مشاركة إلكترونات",
-        "answer2": "انتقال إلكترونات",
-        "answer3": "نيوترونات",
-        "answer4": "بروتونات",
+        "question": "ما الكتلة الجزيئية للكبريتات (SO₄)²⁻ ؟",
+        "answer1": "64 g/mol",
+        "answer2": "96 g/mol",
+        "answer3": "80 g/mol",
+        "answer4": "48 g/mol",
         "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "الأكسدة تعني:",
-        "answer1": "فقد إلكترونات",
-        "answer2": "كسب إلكترونات",
-        "answer3": "ثبات",
-        "answer4": "تحلل",
-        "correctAnswer": "answer1"
+        "question": "ما مبدأ لوشاتولييه؟",
+        "answer1": "التفاعل يسير في اتجاه واحد دائماً",
+        "answer2": "المنظومة تتعارض مع أي تغيير خارجي للحفاظ على التوازن",
+        "answer3": "الطاقة لا تُفنى",
+        "answer4": "حجم الغاز يتناسب مع ضغطه فقط",
+        "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "CO2 مركب:",
-        "answer1": "عنصري",
-        "answer2": "مركب",
-        "answer3": "فلزي",
-        "answer4": "غاز نبيل",
+        "question": "ما الفرق بين التفاعل الطارد للحرارة والماص للحرارة؟",
+        "answer1": "الطارد يمتص حرارة، الماص يُطلق حرارة",
+        "answer2": "الطارد يُطلق حرارة (ΔH سالب)، الماص يمتص حرارة (ΔH موجب)",
+        "answer3": "لا فرق بينهما",
+        "answer4": "كلاهما يُطلق حرارة",
         "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "الماء:",
-        "answer1": "قطبي",
-        "answer2": "غير قطبي",
-        "answer3": "فلزي",
-        "answer4": "صلب",
-        "correctAnswer": "answer1"
+        "question": "ما عدد التأكسد للكروم في K₂Cr₂O₇ ؟",
+        "answer1": "+3",
+        "answer2": "+6",
+        "answer3": "+4",
+        "answer4": "+7",
+        "correctAnswer": "answer2"
       },
       {
         "number": 8,
-        "question": "NaCl هو:",
-        "answer1": "حمض",
-        "answer2": "ملح",
-        "answer3": "غاز",
-        "answer4": "فلز",
+        "question": "ما قانون هيس في الكيمياء الحرارية؟",
+        "answer1": "الحرارة تتناسب مع التركيز",
+        "answer2": "تغيّر الإنثالبي لا يعتمد على مسار التفاعل بل على الحالة الابتدائية والنهائية",
+        "answer3": "كل التفاعلات طاردة للحرارة",
+        "answer4": "الضغط يتحكم في حرارة التفاعل",
         "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "عدد الإلكترونات في الذرة المتعادلة =",
-        "answer1": "البروتونات",
-        "answer2": "النيوترونات",
-        "answer3": "الكتلة",
-        "answer4": "الطاقة",
-        "correctAnswer": "answer1"
+        "question": "ما الجهاز الذي يقيس pH المحلول؟",
+        "answer1": "الطيف الضوئي",
+        "answer2": "المطياف الكتلي",
+        "answer3": "pH ميتر",
+        "answer4": "الكرونوغراف",
+        "correctAnswer": "answer3"
       },
       {
         "number": 10,
-        "question": "الاحتراق يحتاج:",
-        "answer1": "أكسجين",
-        "answer2": "هيليوم",
-        "answer3": "نيتروجين",
-        "answer4": "كربون فقط",
-        "correctAnswer": "answer1"
+        "question": "ما المقصود بالكيمياء الخضراء (Green Chemistry)؟",
+        "answer1": "دراسة النباتات",
+        "answer2": "تصميم عمليات كيميائية تُقلّل النفايات والمواد الضارة",
+        "answer3": "كيمياء الألوان",
+        "answer4": "كيمياء المحيطات",
+        "correctAnswer": "answer2"
       }
     ]
   },
-
   {
     "title": "التاريخ",
     "questions": [
       {
         "number": 1,
-        "question": "الحرب العالمية الأولى بدأت:",
-        "answer1": "1914",
-        "answer2": "1939",
-        "answer3": "1920",
-        "answer4": "1918",
-        "correctAnswer": "answer1"
+        "question": "ما السبب المباشر لاندلاع الحرب العالمية الأولى؟",
+        "answer1": "غزو بولندا",
+        "answer2": "اغتيال الأرشيدوق فرانز فرديناند في سراييفو",
+        "answer3": "انهيار الاقتصاد الألماني",
+        "answer4": "ثورة روسيا البلشفية",
+        "correctAnswer": "answer2"
       },
       {
         "number": 2,
-        "question": "سقوط القسطنطينية:",
-        "answer1": "1453",
-        "answer2": "1492",
-        "answer3": "1517",
-        "answer4": "1600",
-        "correctAnswer": "answer1"
+        "question": "من قاد فتح القسطنطينية عام 1453م؟",
+        "answer1": "سليمان القانوني",
+        "answer2": "صلاح الدين الأيوبي",
+        "answer3": "محمد الفاتح",
+        "answer4": "طارق بن زياد",
+        "correctAnswer": "answer3"
       },
       {
         "number": 3,
-        "question": "الثورة الفرنسية:",
-        "answer1": "1789",
-        "answer2": "1770",
-        "answer3": "1800",
-        "answer4": "1810",
-        "correctAnswer": "answer1"
+        "question": "ما شعار الثورة الفرنسية؟",
+        "answer1": "الله، الملك، الوطن",
+        "answer2": "الحرية، المساواة، الإخاء",
+        "answer3": "العدل، النظام، الحرية",
+        "answer4": "الشعب، القوة، الوحدة",
+        "correctAnswer": "answer2"
       },
       {
         "number": 4,
-        "question": "سايكس بيكو:",
-        "answer1": "1916",
-        "answer2": "1920",
-        "answer3": "1930",
-        "answer4": "1940",
-        "correctAnswer": "answer1"
+        "question": "اتفاقية سايكس بيكو 1916 قسّمت:",
+        "answer1": "أوروبا الشرقية",
+        "answer2": "بلاد الشام والعراق بين بريطانيا وفرنسا",
+        "answer3": "شمال أفريقيا",
+        "answer4": "شبه الجزيرة العربية",
+        "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "الحرب الباردة بين:",
-        "answer1": "أمريكا وروسيا",
-        "answer2": "فرنسا وألمانيا",
-        "answer3": "الصين واليابان",
-        "answer4": "إنجلترا وإسبانيا",
-        "correctAnswer": "answer1"
+        "question": "ما عقيدة ترومان التي أُعلنت عام 1947؟",
+        "answer1": "نشر الشيوعية في أوروبا",
+        "answer2": "دعم الدول المهددة بالشيوعية لاحتواء الاتحاد السوفيتي",
+        "answer3": "الانعزال الأمريكي عن العالم",
+        "answer4": "إنشاء حلف الناتو",
+        "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "الأندلس سقطت:",
-        "answer1": "1492",
-        "answer2": "1450",
-        "answer3": "1500",
-        "answer4": "1600",
-        "correctAnswer": "answer1"
+        "question": "من كان آخر ملوك الأندلس المسلمين؟",
+        "answer1": "يوسف بن تاشفين",
+        "answer2": "موسى بن نصير",
+        "answer3": "أبو عبدالله محمد الثاني عشر (بوعبديل)",
+        "answer4": "المنصور بن أبي عامر",
+        "correctAnswer": "answer3"
       },
       {
         "number": 7,
-        "question": "الإمبراطورية العثمانية انتهت:",
-        "answer1": "1922",
-        "answer2": "1918",
-        "answer3": "1930",
-        "answer4": "1940",
-        "correctAnswer": "answer1"
+        "question": "من أسّس الجمهورية التركية عام 1923؟",
+        "answer1": "أنور باشا",
+        "answer2": "مصطفى كمال أتاتورك",
+        "answer3": "عصمت إينونو",
+        "answer4": "طلعت باشا",
+        "correctAnswer": "answer2"
       },
       {
         "number": 8,
-        "question": "ثورة 1919 في:",
-        "answer1": "مصر",
-        "answer2": "سوريا",
-        "answer3": "العراق",
-        "answer4": "المغرب",
-        "correctAnswer": "answer1"
+        "question": "من قاد ثورة 1919 في مصر؟",
+        "answer1": "أحمد عرابي",
+        "answer2": "محمد نجيب",
+        "answer3": "سعد زغلول",
+        "answer4": "مصطفى النحاس",
+        "correctAnswer": "answer3"
       },
       {
         "number": 9,
-        "question": "أول حضارة:",
-        "answer1": "السومرية",
-        "answer2": "المصرية",
-        "answer3": "الرومانية",
-        "answer4": "اليونانية",
-        "correctAnswer": "answer1"
+        "question": "ما حضارة وادي الرافدين التي أنشأت أول قانون مكتوب؟",
+        "answer1": "الفرعونية",
+        "answer2": "اليونانية",
+        "answer3": "البابلية (قانون حمورابي)",
+        "answer4": "الفارسية",
+        "correctAnswer": "answer3"
       },
       {
         "number": 10,
-        "question": "الحرب العالمية الثانية:",
-        "answer1": "1939",
-        "answer2": "1914",
-        "answer3": "1950",
-        "answer4": "1925",
-        "correctAnswer": "answer1"
+        "question": "ما معاهدة السلام التي أنهت الحرب العالمية الأولى عام 1919؟",
+        "answer1": "معاهدة فيينا",
+        "answer2": "معاهدة فرساي",
+        "answer3": "اتفاقية جنيف",
+        "answer4": "معاهدة برلين",
+        "correctAnswer": "answer2"
       }
     ]
   },
-
   {
     "title": "الجغرافيا",
     "questions": [
       {
         "number": 1,
-        "question": "أطول نهر:",
-        "answer1": "الأمازون",
-        "answer2": "النيل",
-        "answer3": "المسيسيبي",
-        "answer4": "الدانوب",
+        "question": "أيهما أطول فعلاً: نهر النيل أم نهر الأمازون؟",
+        "answer1": "الأمازون أطول",
+        "answer2": "النيل أطول",
+        "answer3": "متساويان",
+        "answer4": "المسيسيبي أطول من كليهما",
         "correctAnswer": "answer2"
       },
       {
         "number": 2,
-        "question": "أكبر قارة:",
-        "answer1": "آسيا",
-        "answer2": "أفريقيا",
-        "answer3": "أوروبا",
-        "answer4": "أمريكا",
-        "correctAnswer": "answer1"
+        "question": "ما أعمق بقعة في المحيطات؟",
+        "answer1": "خندق بورتو ريكو",
+        "answer2": "خندق ماريانا (تشالنجر ديب)",
+        "answer3": "خندق تونغا",
+        "answer4": "خندق جاوا",
+        "correctAnswer": "answer2"
       },
       {
         "number": 3,
-        "question": "أكبر محيط:",
-        "answer1": "الهادئ",
-        "answer2": "الأطلسي",
-        "answer3": "الهندي",
-        "answer4": "المتجمد",
-        "correctAnswer": "answer1"
+        "question": "ما العاصمة التي تقع على قارتين (أوروبا وآسيا)؟",
+        "answer1": "موسكو",
+        "answer2": "أنقرة",
+        "answer3": "إسطنبول",
+        "answer4": "أثينا",
+        "correctAnswer": "answer3"
       },
       {
         "number": 4,
-        "question": "أعلى جبل:",
-        "answer1": "إيفرست",
-        "answer2": "الألب",
-        "answer3": "الأنديز",
-        "answer4": "كليمنجارو",
-        "correctAnswer": "answer1"
+        "question": "ما أعلى قمة في إفريقيا؟",
+        "answer1": "جبل كينيا",
+        "answer2": "جبل كليمنجارو",
+        "answer3": "جبل روينزوري",
+        "answer4": "جبل أطلس",
+        "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "عدد القارات:",
-        "answer1": "7",
-        "answer2": "6",
-        "answer3": "5",
-        "answer4": "8",
-        "correctAnswer": "answer1"
+        "question": "ما الدولة الوحيدة التي تمتد على قارة بأكملها؟",
+        "answer1": "كندا",
+        "answer2": "روسيا",
+        "answer3": "أستراليا",
+        "answer4": "البرازيل",
+        "correctAnswer": "answer3"
       },
       {
         "number": 6,
-        "question": "الصحراء الكبرى:",
-        "answer1": "أفريقيا",
-        "answer2": "آسيا",
-        "answer3": "أوروبا",
-        "answer4": "أمريكا",
-        "correctAnswer": "answer1"
+        "question": "أين تقع أكبر صحراء حارة في العالم؟",
+        "answer1": "آسيا",
+        "answer2": "أستراليا",
+        "answer3": "إفريقيا (الصحراء الكبرى)",
+        "answer4": "أمريكا الجنوبية",
+        "correctAnswer": "answer3"
       },
       {
         "number": 7,
-        "question": "أكبر دولة:",
-        "answer1": "روسيا",
-        "answer2": "الصين",
-        "answer3": "أمريكا",
-        "answer4": "كندا",
-        "correctAnswer": "answer1"
+        "question": "ما أصغر دولة في العالم من حيث المساحة؟",
+        "answer1": "موناكو",
+        "answer2": "سان مارينو",
+        "answer3": "الفاتيكان",
+        "answer4": "ليختنشتاين",
+        "correctAnswer": "answer3"
       },
       {
         "number": 8,
-        "question": "خط الاستواء:",
-        "answer1": "شمال/جنوب",
-        "answer2": "شرق/غرب",
-        "answer3": "قارات",
-        "answer4": "بحار",
-        "correctAnswer": "answer1"
+        "question": "عند أي خط عرض تقع مناطق المناخ المداري الممطر؟",
+        "answer1": "بين 30° و60°",
+        "answer2": "بين 0° و10° شمالاً وجنوباً",
+        "answer3": "بين 60° و90°",
+        "answer4": "بين 20° و30°",
+        "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "أكبر دولة عربية:",
-        "answer1": "الجزائر",
-        "answer2": "مصر",
-        "answer3": "السعودية",
-        "answer4": "السودان",
-        "correctAnswer": "answer1"
+        "question": "بعد انفصال السودان الجنوبي، ما أكبر دولة عربية مساحةً؟",
+        "answer1": "مصر",
+        "answer2": "السعودية",
+        "answer3": "الجزائر",
+        "answer4": "ليبيا",
+        "correctAnswer": "answer3"
       },
       {
         "number": 10,
-        "question": "أعلى هضبة:",
-        "answer1": "التبت",
-        "answer2": "أناضول",
-        "answer3": "النجف",
-        "answer4": "الجزيرة",
-        "correctAnswer": "answer1"
+        "question": "ما أعلى هضبة في العالم وتُسمى 'سقف العالم'؟",
+        "answer1": "هضبة الأناضول",
+        "answer2": "هضبة التبت",
+        "answer3": "هضبة الحبشة",
+        "answer4": "هضبة الدكن",
+        "correctAnswer": "answer2"
       }
     ]
   },
-
   {
     "title": "علوم الحاسوب",
     "questions": [
       {
         "number": 1,
-        "question": "O(1) تعني:",
-        "answer1": "ثابت",
-        "answer2": "خطّي",
-        "answer3": "لوغاريتمي",
-        "answer4": "تربيعي",
-        "correctAnswer": "answer1"
+        "question": "ما تعقيد خوارزمية Merge Sort في أسوأ الحالات؟",
+        "answer1": "O(n²)",
+        "answer2": "O(n log n)",
+        "answer3": "O(log n)",
+        "answer4": "O(n)",
+        "correctAnswer": "answer2"
       },
       {
         "number": 2,
-        "question": "Binary Search:",
-        "answer1": "O(n)",
-        "answer2": "O(log n)",
-        "answer3": "O(n²)",
-        "answer4": "O(1)",
+        "question": "ما الفرق بين Stack و Queue؟",
+        "answer1": "Stack: FIFO، Queue: LIFO",
+        "answer2": "Stack: LIFO (آخر داخل أول خارج)، Queue: FIFO (أول داخل أول خارج)",
+        "answer3": "لا فرق بينهما",
+        "answer4": "Stack للبيانات الكبيرة فقط",
         "correctAnswer": "answer2"
       },
       {
         "number": 3,
-        "question": "Stack Overflow يعني:",
-        "answer1": "امتلاء المكدس",
-        "answer2": "شبكة",
-        "answer3": "RAM",
-        "answer4": "CPU",
-        "correctAnswer": "answer1"
+        "question": "ما مشكلة Deadlock في أنظمة التشغيل؟",
+        "answer1": "توقف المعالج عن العمل",
+        "answer2": "تعطّل عمليتين أو أكثر كلٌّ منها تنتظر مورداً تحتجزه الأخرى",
+        "answer3": "امتلاء الذاكرة العشوائية",
+        "answer4": "فشل الشبكة",
+        "correctAnswer": "answer2"
       },
       {
         "number": 4,
-        "question": "Git يستخدم في:",
-        "answer1": "التصميم",
-        "answer2": "إدارة الإصدارات",
-        "answer3": "الألعاب",
-        "answer4": "الطباعة",
+        "question": "ما الفرق بين Git merge و Git rebase؟",
+        "answer1": "لا فرق، كلاهما يدمج الفروع",
+        "answer2": "merge يحافظ على تاريخ الفروع، rebase يُعيد كتابة التاريخ بشكل خطي",
+        "answer3": "rebase يحذف الفرع، merge يحتفظ به",
+        "answer4": "merge أسرع دائماً",
         "correctAnswer": "answer2"
       },
       {
         "number": 5,
-        "question": "React هي:",
-        "answer1": "لغة",
-        "answer2": "مكتبة",
-        "answer3": "نظام",
-        "answer4": "قاعدة بيانات",
+        "question": "ما مفهوم Closure في البرمجة؟",
+        "answer1": "إغلاق البرنامج",
+        "answer2": "دالة تحتفظ بإمكانية الوصول إلى متغيرات نطاقها الخارجي حتى بعد انتهائه",
+        "answer3": "تشفير البيانات",
+        "answer4": "إغلاق قاعدة البيانات",
         "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "HTTP:",
-        "answer1": "نقل ويب",
-        "answer2": "تخزين",
-        "answer3": "معالج",
-        "answer4": "شبكة داخلية",
-        "correctAnswer": "answer1"
-      },
-      {
-        "number": 7,
-        "question": "CPU:",
-        "answer1": "معالج",
-        "answer2": "ذاكرة",
-        "answer3": "قرص",
-        "answer4": "شاشة",
-        "correctAnswer": "answer1"
-      },
-      {
-        "number": 8,
-        "question": "RAM:",
-        "answer1": "تخزين دائم",
-        "answer2": "تخزين مؤقت",
-        "answer3": "شبكة",
-        "answer4": "برمجة",
+        "question": "ما بروتوكول HTTPS ويتميز بـ؟",
+        "answer1": "نقل بيانات بدون تشفير",
+        "answer2": "HTTP مع تشفير TLS/SSL لحماية البيانات",
+        "answer3": "بروتوكول للبريد الإلكتروني",
+        "answer4": "بروتوكول للشبكات الداخلية فقط",
         "correctAnswer": "answer2"
       },
       {
+        "number": 7,
+        "question": "ما المقصود بـ Virtual Memory؟",
+        "answer1": "ذاكرة موجودة في بطاقة الشاشة",
+        "answer2": "تقنية تُتيح للنظام استخدام جزء من القرص الصلب كامتداد للـ RAM",
+        "answer3": "ذاكرة في السحابة",
+        "answer4": "ذاكرة سريعة داخل المعالج",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما نموذج OSI ويتكون من كم طبقة؟",
+        "answer1": "4 طبقات",
+        "answer2": "5 طبقات",
+        "answer3": "7 طبقات",
+        "answer4": "9 طبقات",
+        "correctAnswer": "answer3"
+      },
+      {
         "number": 9,
-        "question": "HTML:",
-        "answer1": "هيكل",
-        "answer2": "منطق",
-        "answer3": "شبكة",
-        "answer4": "قاعدة بيانات",
-        "correctAnswer": "answer1"
+        "question": "ما مفهوم Polymorphism في البرمجة كائنية التوجه؟",
+        "answer1": "إخفاء البيانات داخل الكلاس",
+        "answer2": "قدرة الكائنات من أنواع مختلفة على الاستجابة لنفس الواجهة بطرق مختلفة",
+        "answer3": "وراثة خصائص كلاس واحد",
+        "answer4": "تكرار الكود في أماكن متعددة",
+        "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "CSS:",
-        "answer1": "منطق",
-        "answer2": "تصميم",
-        "answer3": "بيانات",
-        "answer4": "شبكة",
+        "question": "ما الفرق بين SQL و NoSQL؟",
+        "answer1": "SQL أسرع دائماً من NoSQL",
+        "answer2": "SQL قواعد بيانات علائقية بمخطط ثابت، NoSQL غير علائقية ومرنة في البنية",
+        "answer3": "NoSQL يستخدم جداول فقط",
+        "answer4": "SQL للويب فقط، NoSQL للتطبيقات",
         "correctAnswer": "answer2"
       }
     ]
   },
-
   {
     "title": "الثقافة العامة",
     "questions": [
       {
         "number": 1,
-        "question": "عاصمة اليابان:",
-        "answer1": "طوكيو",
-        "answer2": "كيوتو",
-        "answer3": "أوساكا",
-        "answer4": "نارا",
-        "correctAnswer": "answer1"
+        "question": "ما العاصمة الإدارية لجنوب إفريقيا؟",
+        "answer1": "كيب تاون",
+        "answer2": "جوهانسبرغ",
+        "answer3": "بريتوريا",
+        "answer4": "ديربان",
+        "correctAnswer": "answer3"
       },
       {
         "number": 2,
-        "question": "أكبر كوكب:",
-        "answer1": "المشتري",
-        "answer2": "زحل",
-        "answer3": "الأرض",
-        "answer4": "المريخ",
-        "correctAnswer": "answer1"
+        "question": "ما الكوكب الذي تستغرق دورته حول الشمس 248 سنة أرضية؟",
+        "answer1": "نبتون",
+        "answer2": "أورانوس",
+        "answer3": "زحل",
+        "answer4": "بلوتو",
+        "correctAnswer": "answer4"
       },
       {
         "number": 3,
-        "question": "عدد كواكب المجموعة:",
-        "answer1": "8",
-        "answer2": "9",
-        "answer3": "7",
-        "answer4": "10",
-        "correctAnswer": "answer1"
+        "question": "ما عدد الأضلاع في شكل الدوديكاغون؟",
+        "answer1": "10",
+        "answer2": "11",
+        "answer3": "12",
+        "answer4": "8",
+        "correctAnswer": "answer3"
       },
       {
         "number": 4,
-        "question": "أسرع حيوان:",
-        "answer1": "الفهد",
-        "answer2": "الأسد",
-        "answer3": "النمر",
-        "answer4": "الذئب",
-        "correctAnswer": "answer1"
+        "question": "ما الحيوان الذي لديه أطول فترة حمل بين الثدييات؟",
+        "answer1": "الحوت الأزرق",
+        "answer2": "الزرافة",
+        "answer3": "الفيل الإفريقي (22 شهراً)",
+        "answer4": "وحيد القرن",
+        "correctAnswer": "answer3"
       },
       {
         "number": 5,
-        "question": "عملة مصر:",
-        "answer1": "جنيه",
-        "answer2": "دينار",
-        "answer3": "ريال",
-        "answer4": "درهم",
-        "correctAnswer": "answer1"
+        "question": "ما العملة الرسمية لدولة الإمارات؟",
+        "answer1": "الريال",
+        "answer2": "الدرهم",
+        "answer3": "الدينار",
+        "answer4": "الجنيه",
+        "correctAnswer": "answer2"
       },
       {
         "number": 6,
-        "question": "أول إنسان على القمر:",
-        "answer1": "أرمسترونغ",
-        "answer2": "غاغارين",
-        "answer3": "ألدرن",
-        "answer4": "كولينز",
-        "correctAnswer": "answer1"
+        "question": "كم عدد رواد Apollo 11 الذين وصلوا للقمر عام 1969؟",
+        "answer1": "3 (كلهم هبطوا)",
+        "answer2": "2 هبطا وواحد بقي في المركبة",
+        "answer3": "واحد فقط",
+        "answer4": "4 رواد",
+        "correctAnswer": "answer2"
       },
       {
         "number": 7,
-        "question": "أكبر محيط:",
-        "answer1": "الهادئ",
-        "answer2": "الأطلسي",
-        "answer3": "الهندي",
-        "answer4": "المتجمد",
-        "correctAnswer": "answer1"
+        "question": "ما أكبر محيط في العالم من حيث المساحة؟",
+        "answer1": "الأطلسي",
+        "answer2": "الهندي",
+        "answer3": "الهادئ",
+        "answer4": "المتجمد الشمالي",
+        "correctAnswer": "answer3"
       },
       {
         "number": 8,
-        "question": "أكبر دولة عربية:",
-        "answer1": "الجزائر",
-        "answer2": "السعودية",
-        "answer3": "مصر",
-        "answer4": "السودان",
-        "correctAnswer": "answer1"
+        "question": "من مخترع الهاتف؟",
+        "answer1": "توماس إديسون",
+        "answer2": "ألكسندر غراهام بيل",
+        "answer3": "نيكولا تسلا",
+        "answer4": "ماركوني",
+        "correctAnswer": "answer2"
       },
       {
         "number": 9,
-        "question": "عدد أيام السنة الكبيسة:",
-        "answer1": "365",
-        "answer2": "366",
-        "answer3": "364",
-        "answer4": "360",
+        "question": "في كم يوم تدور الأرض حول الشمس دورة كاملة بدقة؟",
+        "answer1": "365 يوماً",
+        "answer2": "365.25 يوماً",
+        "answer3": "360 يوماً",
+        "answer4": "366 يوماً",
         "correctAnswer": "answer2"
       },
       {
         "number": 10,
-        "question": "رمز الماء:",
-        "answer1": "H2O",
-        "answer2": "CO2",
-        "answer3": "O2",
-        "answer4": "NaCl",
-        "correctAnswer": "answer1"
+        "question": "ما الغاز الأكثر وفرةً في الغلاف الجوي للأرض؟",
+        "answer1": "الأكسجين",
+        "answer2": "ثاني أكسيد الكربون",
+        "answer3": "النيتروجين",
+        "answer4": "الهيليوم",
+        "correctAnswer": "answer3"
       }
     ]
-  }]
+  },
+  {
+    "title": "الدين الإسلامي",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما عدد آيات سورة البقرة؟",
+        "answer1": "280",
+        "answer2": "286",
+        "answer3": "290",
+        "answer4": "275",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما اسم أم المؤمنين التي كانت قبل النبي ﷺ تحت زوج واحد فقط؟",
+        "answer1": "السيدة خديجة رضي الله عنها",
+        "answer2": "السيدة عائشة رضي الله عنها",
+        "answer3": "السيدة حفصة رضي الله عنها",
+        "answer4": "السيدة زينب بنت جحش رضي الله عنها",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما الغزوة التي حُفر فيها الخندق؟",
+        "answer1": "غزوة بدر",
+        "answer2": "غزوة أحد",
+        "answer3": "غزوة الأحزاب (الخندق)",
+        "answer4": "غزوة تبوك",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما أول ما يُحاسَب عليه العبد يوم القيامة من الأعمال؟",
+        "answer1": "الصيام",
+        "answer2": "الزكاة",
+        "answer3": "الصلاة",
+        "answer4": "الحج",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 5,
+        "question": "كم عدد أركان الإسلام؟",
+        "answer1": "4",
+        "answer2": "6",
+        "answer3": "5",
+        "answer4": "7",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما أطول سورة في القرآن الكريم؟",
+        "answer1": "سورة آل عمران",
+        "answer2": "سورة النساء",
+        "answer3": "سورة البقرة",
+        "answer4": "سورة المائدة",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "في أي عام هُجرة وقعت غزوة بدر الكبرى؟",
+        "answer1": "السنة الأولى",
+        "answer2": "السنة الثانية",
+        "answer3": "السنة الثالثة",
+        "answer4": "السنة الخامسة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما المقصود بصيام الوصال المنهي عنه؟",
+        "answer1": "الصيام في السفر",
+        "answer2": "صيام يومين متتاليين دون إفطار بينهما",
+        "answer3": "صيام يوم العيد",
+        "answer4": "الصيام بدون نية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما اسم الصحابي الملقّب بـ 'سيف الله المسلول'؟",
+        "answer1": "علي بن أبي طالب",
+        "answer2": "عمر بن الخطاب",
+        "answer3": "خالد بن الوليد",
+        "answer4": "الزبير بن العوام",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "ما المقصود بـ 'الإجماع' في أصول الفقه؟",
+        "answer1": "رأي الفقيه الواحد",
+        "answer2": "اتفاق علماء الأمة الإسلامية في عصر من العصور على حكم شرعي",
+        "answer3": "القياس على النصوص",
+        "answer4": "الاجتهاد الفردي",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الألغاز",
+    "questions": [
+      {
+        "number": 1,
+        "question": "لديّ مدن ولا بشر فيها، جبال ولا أشجار، ماء ولا سمك. ما أنا؟",
+        "answer1": "الصحراء",
+        "answer2": "الخريطة",
+        "answer3": "الفضاء",
+        "answer4": "الحلم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "كلما أخذت منه ازداد. ما هو؟",
+        "answer1": "المال",
+        "answer2": "الحُفرة",
+        "answer3": "الوقت",
+        "answer4": "الماء",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "أنا دائماً أمامك لكنك لا تستطيع رؤيتي. ما أنا؟",
+        "answer1": "الخوف",
+        "answer2": "الهواء",
+        "answer3": "المستقبل",
+        "answer4": "الظل",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما الشيء الذي له أسنان ولا يعضّ؟",
+        "answer1": "الأسد",
+        "answer2": "المشط",
+        "answer3": "السكين",
+        "answer4": "الشوكة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "رجل يسكن في الطابق العشرين، يصعد المصعد إلى الطابق العاشر ثم يمشي بقية الطريق. لماذا؟",
+        "answer1": "يحب الرياضة",
+        "answer2": "المصعد معطل",
+        "answer3": "لا يستطيع الضغط على أزرار أعلى من العاشر لأنه قصير القامة",
+        "answer4": "المصعد يقف في العاشر فقط",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما الكلمة التي تُقرأ من اليمين واليسار بنفس الطريقة؟",
+        "answer1": "كتاب",
+        "answer2": "مرآة",
+        "answer3": "مستوى",
+        "answer4": "رادار",
+        "correctAnswer": "answer4"
+      },
+      {
+        "number": 7,
+        "question": "إذا كان لديك 3 تفاحات وأخذت منها 2، كم تفاحة لديك؟",
+        "answer1": "1",
+        "answer2": "3",
+        "answer3": "2",
+        "answer4": "0",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "ما الشيء الذي ينكسر بمجرد أن تنطق باسمه؟",
+        "answer1": "الزجاج",
+        "answer2": "الصمت",
+        "answer3": "الحلم",
+        "answer4": "القلب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "أب عمره 30 عاماً وابنه عمره 5 أعوام. بعد كم سنة يكون عمر الأب ضعف عمر الابن؟",
+        "answer1": "15 سنة",
+        "answer2": "20 سنة",
+        "answer3": "25 سنة",
+        "answer4": "10 سنوات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما الشيء الذي يمشي على أربعة صباحاً، واثنتين ظهراً، وثلاثة مساءً؟",
+        "answer1": "الكلب",
+        "answer2": "الإنسان",
+        "answer3": "القط",
+        "answer4": "الدب",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الأنبياء",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما اسم النبي الذي ابتلعه الحوت؟",
+        "answer1": "يونس عليه السلام",
+        "answer2": "يوسف عليه السلام",
+        "answer3": "أيوب عليه السلام",
+        "answer4": "إدريس عليه السلام",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 2,
+        "question": "ما المعجزة التي أوتيها نبي الله سليمان عليه السلام؟",
+        "answer1": "إحياء الموتى",
+        "answer2": "تسخير الريح والجن وفهم لغة الطير والحيوان",
+        "answer3": "قلب العصا ثعباناً",
+        "answer4": "الشفاء بإذن الله",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "في أي مدينة وُلد نبينا محمد ﷺ؟",
+        "answer1": "المدينة المنورة",
+        "answer2": "الطائف",
+        "answer3": "مكة المكرمة",
+        "answer4": "القدس",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما النبي الذي عاش أطول فترة وفق ما ورد؟",
+        "answer1": "إبراهيم عليه السلام",
+        "answer2": "نوح عليه السلام",
+        "answer3": "آدم عليه السلام",
+        "answer4": "إدريس عليه السلام",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما المعجزة الكبرى لنبي الله موسى عليه السلام أمام فرعون؟",
+        "answer1": "شق البحر",
+        "answer2": "قلب العصا ثعباناً وابتلاع سحر السحرة",
+        "answer3": "إنزال المن والسلوى",
+        "answer4": "إحياء الموتى",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما النبي الذي رُفع إلى السماء بدون موت وفق رأي كثير من المفسرين؟",
+        "answer1": "موسى عليه السلام",
+        "answer2": "إبراهيم عليه السلام",
+        "answer3": "عيسى عليه السلام",
+        "answer4": "يوسف عليه السلام",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "ما أول سورة نزلت من القرآن الكريم على النبي ﷺ؟",
+        "answer1": "سورة الفاتحة",
+        "answer2": "سورة المدثر",
+        "answer3": "أوائل سورة العلق (اقرأ)",
+        "answer4": "سورة البقرة",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "ما ابتلاء نبي الله أيوب عليه السلام؟",
+        "answer1": "الفقر",
+        "answer2": "السجن",
+        "answer3": "المرض الشديد لسنوات طويلة",
+        "answer4": "فقدان أبنائه فقط",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "ما النبي الذي بنى الكعبة المشرفة مع ابنه؟",
+        "answer1": "آدم عليه السلام",
+        "answer2": "إبراهيم عليه السلام مع إسماعيل",
+        "answer3": "إسحاق عليه السلام",
+        "answer4": "يعقوب عليه السلام",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "كم عدد الأنبياء والرسل المذكورين بالاسم في القرآن الكريم؟",
+        "answer1": "20",
+        "answer2": "22",
+        "answer3": "25",
+        "answer4": "30",
+        "correctAnswer": "answer3"
+      }
+    ]
+  },
+  {
+    "title": "اللغة العربية",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما إعراب كلمة 'العلمَ' في جملة: 'طلبتُ العلمَ'؟",
+        "answer1": "فاعل مرفوع",
+        "answer2": "مفعول به منصوب",
+        "answer3": "مبتدأ مرفوع",
+        "answer4": "خبر مرفوع",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما جمع كلمة 'كتاب'؟",
+        "answer1": "أكتاب",
+        "answer2": "كتبٌ وكُتُب",
+        "answer3": "كتابات فقط",
+        "answer4": "مكتوبات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما نوع الأسلوب في: 'يا طالبَ العلم، اجتهد!'؟",
+        "answer1": "أسلوب نفي",
+        "answer2": "أسلوب نداء وأمر",
+        "answer3": "أسلوب استفهام",
+        "answer4": "أسلوب شرط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما المفرد لكلمة 'أفئدة'؟",
+        "answer1": "فُؤاد",
+        "answer2": "فَأد",
+        "answer3": "فَيد",
+        "answer4": "فاد",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 5,
+        "question": "في النحو: ما حروف الجر؟",
+        "answer1": "من، إلى، عن، على، في، الباء، اللام، الكاف وغيرها",
+        "answer2": "واو، فاء، ثم، بل",
+        "answer3": "لم، لن، لا",
+        "answer4": "هل، أم، أو",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "ما الفرق بين الفعل المتعدي واللازم؟",
+        "answer1": "المتعدي فعل ماضٍ، اللازم مضارع",
+        "answer2": "المتعدي يحتاج مفعولاً به، اللازم يكتفي بفاعله",
+        "answer3": "اللازم أقوى من المتعدي",
+        "answer4": "لا فرق بينهما",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما علامة النصب الأصلية في الاسم المفرد؟",
+        "answer1": "الواو",
+        "answer2": "الضمة",
+        "answer3": "الفتحة",
+        "answer4": "الكسرة",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "ما المقصود بـ 'الاستعارة' في البلاغة؟",
+        "answer1": "ذكر شيء ولازمه",
+        "answer2": "تشبيه حُذف أحد طرفيه (المشبه أو المشبه به)",
+        "answer3": "المقارنة بين شيئين بأداة",
+        "answer4": "التكرار للتأكيد",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما الصواب: 'النساءُ اجتهدن' أم 'النساءُ اجتهدوا'؟",
+        "answer1": "اجتهدوا",
+        "answer2": "اجتهدن",
+        "answer3": "كلاهما صحيح",
+        "answer4": "اجتهدتا",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما معنى 'الطباق' في البلاغة؟",
+        "answer1": "تكرار الكلمة",
+        "answer2": "الجمع بين كلمتين متضادتين",
+        "answer3": "المقارنة بأداة",
+        "answer4": "حذف جزء من الجملة",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "اللغة الإنجليزية",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Which sentence is grammatically correct?",
+        "answer1": "She don't like coffee.",
+        "answer2": "She doesn't likes coffee.",
+        "answer3": "She doesn't like coffee.",
+        "answer4": "She not like coffee.",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "What is the past perfect of 'go'?",
+        "answer1": "Has gone",
+        "answer2": "Had gone",
+        "answer3": "Have gone",
+        "answer4": "Was gone",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "What does the idiom 'break the ice' mean?",
+        "answer1": "Destroy something cold",
+        "answer2": "Start a conversation in an awkward situation",
+        "answer3": "Feel very cold",
+        "answer4": "Stop a fight",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "Choose the correct conditional: 'If I ___ rich, I would travel.'",
+        "answer1": "am",
+        "answer2": "was",
+        "answer3": "were",
+        "answer4": "will be",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 5,
+        "question": "What is the synonym of 'eloquent'?",
+        "answer1": "Silent",
+        "answer2": "Articulate",
+        "answer3": "Confused",
+        "answer4": "Aggressive",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "What is the plural of 'criterion'?",
+        "answer1": "Criterions",
+        "answer2": "Criterias",
+        "answer3": "Criteria",
+        "answer4": "Criterium",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "Identify the passive voice: 'The cake ___ by Mary.'",
+        "answer1": "baked",
+        "answer2": "was baked",
+        "answer3": "has bake",
+        "answer4": "is baking",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "What does 'ephemeral' mean?",
+        "answer1": "Lasting forever",
+        "answer2": "Extremely large",
+        "answer3": "Lasting for a very short time",
+        "answer4": "Deeply emotional",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "Which word is an adverb in: 'She sings beautifully'?",
+        "answer1": "She",
+        "answer2": "sings",
+        "answer3": "beautifully",
+        "answer4": "None",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "What is the antonym of 'benevolent'?",
+        "answer1": "Kind",
+        "answer2": "Generous",
+        "answer3": "Malevolent",
+        "answer4": "Peaceful",
+        "correctAnswer": "answer3"
+      }
+    ]
+  },
+  {
+    "title": "الأحياء (Biology)",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما وظيفة الميتوكوندريا في الخلية؟",
+        "answer1": "تخزين المعلومات الوراثية",
+        "answer2": "تصنيع البروتين",
+        "answer3": "إنتاج الطاقة (ATP) عبر التنفس الخلوي",
+        "answer4": "هضم الجزيئات الكبيرة",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "ما الفرق بين الخلية النباتية والحيوانية؟",
+        "answer1": "الحيوانية لها نواة، النباتية لا",
+        "answer2": "النباتية لها جدار خلوي وبلاستيدات خضراء، الحيوانية ليس لها",
+        "answer3": "لا فرق بينهما",
+        "answer4": "الحيوانية أكبر دائماً",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما المادة التي تحمل الشيفرة الوراثية في معظم الكائنات؟",
+        "answer1": "RNA",
+        "answer2": "البروتين",
+        "answer3": "DNA",
+        "answer4": "ATP",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما عملية التمثيل الضوئي (Photosynthesis)؟",
+        "answer1": "تحويل الأكسجين إلى ثاني أكسيد الكربون",
+        "answer2": "تحويل الضوء وثاني أكسيد الكربون والماء إلى سكر وأكسجين",
+        "answer3": "هضم الغذاء بالضوء",
+        "answer4": "إنتاج الطاقة من الجلوكوز",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما وظيفة الريبوسومات؟",
+        "answer1": "إنتاج الطاقة",
+        "answer2": "تخزين الجينات",
+        "answer3": "تصنيع البروتينات",
+        "answer4": "تنظيم دخول المواد للخلية",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما الهرمون الذي ينظم مستوى السكر في الدم؟",
+        "answer1": "الأدرينالين",
+        "answer2": "الإنسولين",
+        "answer3": "الثيروكسين",
+        "answer4": "الكورتيزول",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما عدد كروموسومات الإنسان السليم في خلاياه الجسدية؟",
+        "answer1": "23",
+        "answer2": "44",
+        "answer3": "46",
+        "answer4": "48",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "ما الفرق بين الانقسام الخيطي (Mitosis) والاختزالي (Meiosis)؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "Mitosis ينتج خليتين متطابقتين، Meiosis ينتج 4 خلايا بنصف الكروموسومات",
+        "answer3": "Meiosis للخلايا الجسدية، Mitosis للتكاثر",
+        "answer4": "Mitosis أبطأ دائماً",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما الجهاز المسؤول عن إنتاج الأجسام المضادة؟",
+        "answer1": "الجهاز الهضمي",
+        "answer2": "الجهاز العصبي",
+        "answer3": "الجهاز المناعي",
+        "answer4": "الجهاز التنفسي",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "من صاحب نظرية التطور بالانتخاب الطبيعي؟",
+        "answer1": "لامارك",
+        "answer2": "منديل",
+        "answer3": "داروين",
+        "answer4": "باستور",
+        "correctAnswer": "answer3"
+      }
+    ]
+  },
+  {
+    "title": "الفلك والفضاء",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما المقياس الذي يُستخدم لقياس المسافات الفلكية الكبيرة؟",
+        "answer1": "الكيلومتر",
+        "answer2": "السنة الضوئية",
+        "answer3": "الميل البحري",
+        "answer4": "الوحدة الفلكية فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما الذي يحدث للضوء عند اقترابه من الثقب الأسود؟",
+        "answer1": "يتسارع",
+        "answer2": "لا يتأثر",
+        "answer3": "يُبتلع ولا يستطيع الإفلات",
+        "answer4": "ينعكس",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "ما الكوكب الذي يدور حول محوره بعكس اتجاه باقي الكواكب؟",
+        "answer1": "المريخ",
+        "answer2": "زحل",
+        "answer3": "الزهرة",
+        "answer4": "المشتري",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما نظرية Big Bang؟",
+        "answer1": "الكون أزلي ولا بداية له",
+        "answer2": "الكون بدأ من انفجار عظيم قبل نحو 13.8 مليار سنة",
+        "answer3": "الكون ينكمش باستمرار",
+        "answer4": "النجوم تولد ثقوباً سوداء فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما النجم الأقرب إلى الأرض بعد الشمس؟",
+        "answer1": "سيريوس",
+        "answer2": "بروكسيما سنتوري",
+        "answer3": "بيتلجوز",
+        "answer4": "الجبار",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما الحلقات التي تُحيط بكوكب زحل مكونة من؟",
+        "answer1": "غاز وجليد",
+        "answer2": "جزيئات جليد وصخور",
+        "answer3": "ماء سائل",
+        "answer4": "دخان وغبار",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما المجرة التي تنتمي إليها مجموعتنا الشمسية؟",
+        "answer1": "المرأة المسلسلة",
+        "answer2": "درب التبانة",
+        "answer3": "سحابة ماجلان",
+        "answer4": "المثلث",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما أكبر تلسكوب فضائي أُطلق حتى الآن (2023)؟",
+        "answer1": "تلسكوب هابل",
+        "answer2": "تلسكوب كبلر",
+        "answer3": "تلسكوب جيمس ويب",
+        "answer4": "تلسكوب سبيتزر",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "ما الظاهرة التي تُسبب المد والجزر في المحيطات؟",
+        "answer1": "الرياح",
+        "answer2": "الجاذبية القمرية والشمسية",
+        "answer3": "الحرارة الجوفية",
+        "answer4": "التيارات البحرية فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما سرعة الإفلات من جاذبية الأرض؟",
+        "answer1": "7.9 km/s",
+        "answer2": "11.2 km/s",
+        "answer3": "3 × 10⁸ m/s",
+        "answer4": "5 km/s",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الاقتصاد",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما قانون العرض والطلب؟",
+        "answer1": "كلما زاد العرض ارتفع السعر",
+        "answer2": "كلما زاد الطلب مع ثبات العرض ارتفع السعر، والعكس صحيح",
+        "answer3": "العرض دائماً يساوي الطلب",
+        "answer4": "السعر ثابت بغض النظر عن العرض والطلب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما المقصود بـ GDP (الناتج المحلي الإجمالي)؟",
+        "answer1": "ديون الدولة",
+        "answer2": "إجمالي قيمة السلع والخدمات المنتجة في دولة خلال عام",
+        "answer3": "احتياطي الذهب",
+        "answer4": "الميزانية الحكومية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما التضخم (Inflation)؟",
+        "answer1": "انخفاض مستمر في الأسعار",
+        "answer2": "ارتفاع مستمر في المستوى العام للأسعار مع انخفاض القوة الشرائية",
+        "answer3": "زيادة في الإنتاج",
+        "answer4": "ارتفاع قيمة العملة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما البنك المركزي ودوره؟",
+        "answer1": "يُقرض الأفراد مباشرة",
+        "answer2": "يُنظّم السياسة النقدية ويُشرف على البنوك التجارية",
+        "answer3": "يستثمر في البورصة",
+        "answer4": "يجمع الضرائب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الفرق بين التجارة الحرة والحمائية؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "التجارة الحرة تُزيل الحواجز الجمركية، الحمائية تفرض رسوماً لحماية الصناعة المحلية",
+        "answer3": "الحمائية تُشجع الاستيراد، التجارة الحرة تمنعه",
+        "answer4": "التجارة الحرة للدول الكبيرة فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما مؤشر S&P 500؟",
+        "answer1": "مؤشر لأسعار الذهب",
+        "answer2": "مؤشر يقيس أداء أكبر 500 شركة أمريكية في البورصة",
+        "answer3": "معدل التضخم الأمريكي",
+        "answer4": "مؤشر لصرف الدولار",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما المقصود بـ 'الفائدة المركّبة' (Compound Interest)؟",
+        "answer1": "فائدة تُحسب على رأس المال الأصلي فقط",
+        "answer2": "فائدة تُحسب على رأس المال والفوائد المتراكمة معاً",
+        "answer3": "فائدة ثابتة لا تتغير",
+        "answer4": "فائدة تُدفع مرة واحدة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما الكساد الاقتصادي (Recession)؟",
+        "answer1": "نمو اقتصادي بطيء",
+        "answer2": "انكماش في الناتج المحلي الإجمالي لربعين متتاليين على الأقل",
+        "answer3": "ارتفاع حاد في البطالة فقط",
+        "answer4": "انهيار البورصة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما العملة الأكثر تداولاً في الاحتياطيات العالمية؟",
+        "answer1": "اليورو",
+        "answer2": "الجنيه الإسترليني",
+        "answer3": "الدولار الأمريكي",
+        "answer4": "الين الياباني",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "من صاحب كتاب 'ثروة الأمم' المؤسس لعلم الاقتصاد الحديث؟",
+        "answer1": "جون كينز",
+        "answer2": "كارل ماركس",
+        "answer3": "آدم سميث",
+        "answer4": "ميلتون فريدمان",
+        "correctAnswer": "answer3"
+      }
+    ]
+  },
+  {
+    "title": "الفلسفة",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما المقولة الشهيرة لديكارت التي تُثبت وجوده؟",
+        "answer1": "الإنسان مقياس كل شيء",
+        "answer2": "أنا أفكر إذن أنا موجود",
+        "answer3": "المعرفة فضيلة",
+        "answer4": "الجوهر يسبق الوجود",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما الفلسفة التي تقول إن الوجود يسبق الماهية؟",
+        "answer1": "المثالية",
+        "answer2": "العدمية",
+        "answer3": "الوجودية",
+        "answer4": "البراغماتية",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "من فيلسوف 'إرادة القوة' و'موت الإله'؟",
+        "answer1": "كانط",
+        "answer2": "هيغل",
+        "answer3": "نيتشه",
+        "answer4": "شوبنهاور",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما المقصود بـ 'مشكلة العقل والجسد' في الفلسفة؟",
+        "answer1": "العلاقة بين الأخلاق والسياسة",
+        "answer2": "الجدل حول طبيعة العلاقة بين العقل غير المادي والجسد المادي",
+        "answer3": "مشكلة وجود الله",
+        "answer4": "طبيعة المعرفة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما كهف أفلاطون ودلالته؟",
+        "answer1": "مثال يُبيّن أن الناس يرون ظلالاً للحقيقة لا الحقيقة ذاتها",
+        "answer2": "مكان يُقيم فيه الفلاسفة",
+        "answer3": "رمز للموت",
+        "answer4": "مثال للديمقراطية",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 6,
+        "question": "ما المنهج السقراطي (Socratic Method)؟",
+        "answer1": "حفظ النصوص الفلسفية",
+        "answer2": "أسلوب حوار يعتمد على الأسئلة المتتالية للكشف عن التناقضات والوصول للحقيقة",
+        "answer3": "التأمل الصامت",
+        "answer4": "الاستدلال الرياضي فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما الفرق بين الأخلاق النفعية والأخلاق الواجبية (كانط)؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "النفعية تحكم على الفعل بنتائجه، الكانطية بمطابقته للواجب الأخلاقي المطلق",
+        "answer3": "الكانطية ترفض الأخلاق",
+        "answer4": "النفعية للفرد، الكانطية للمجتمع",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما مفهوم 'العقد الاجتماعي' عند روسو؟",
+        "answer1": "عقد تجاري",
+        "answer2": "اتفاق افتراضي بين الأفراد والمجتمع يتنازلون فيه عن بعض حرياتهم مقابل الحماية والنظام",
+        "answer3": "عقد ديني",
+        "answer4": "عقد بين الملوك والنبلاء",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما الميتافيزيقا؟",
+        "answer1": "علم الأحياء",
+        "answer2": "فرع الفلسفة الذي يدرس طبيعة الوجود والواقع وما وراء الطبيعة",
+        "answer3": "علم النفس",
+        "answer4": "منطق الرياضيات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما المفارقة التي وضعها زينو تُثبت استحالة الحركة؟",
+        "answer1": "مفارقة السفينة",
+        "answer2": "مفارقة أخيل والسلحفاة",
+        "answer3": "مفارقة الكذاب",
+        "answer4": "مفارقة الدائرة",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الطب والصحة",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الفرق بين الفيروس والبكتيريا من حيث العلاج؟",
+        "answer1": "كلاهما يُعالج بالمضادات الحيوية",
+        "answer2": "البكتيريا تُعالج بالمضادات الحيوية، الفيروسات لا تستجيب لها",
+        "answer3": "الفيروسات أسهل في العلاج",
+        "answer4": "لا فرق في العلاج",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما وظيفة خلايا الدم الحمراء؟",
+        "answer1": "مكافحة العدوى",
+        "answer2": "تجلط الدم",
+        "answer3": "نقل الأكسجين عبر الهيموغلوبين",
+        "answer4": "إفراز الهرمونات",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "ما الجهاز الذي ينتج الإنسولين في جسم الإنسان؟",
+        "answer1": "الكبد",
+        "answer2": "البنكرياس",
+        "answer3": "الكلية",
+        "answer4": "الطحال",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما مؤشر كتلة الجسم الطبيعي (BMI) للبالغ؟",
+        "answer1": "أقل من 15",
+        "answer2": "بين 18.5 و24.9",
+        "answer3": "بين 25 و30",
+        "answer4": "فوق 30",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما فصيلة الدم الـ'مانح العالمي' التي يمكن نقلها لأي شخص؟",
+        "answer1": "A+",
+        "answer2": "AB+",
+        "answer3": "O-",
+        "answer4": "B-",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما السبب الرئيسي لمرض السكري من النوع الثاني؟",
+        "answer1": "نقص إنتاج الإنسولين كلياً",
+        "answer2": "مقاومة الجسم للإنسولين مع ضعف إفرازه",
+        "answer3": "فيروس يُهاجم البنكرياس",
+        "answer4": "الإفراط في السكر فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما أسرع خلايا الجسم تجدداً؟",
+        "answer1": "خلايا الدماغ",
+        "answer2": "خلايا العظام",
+        "answer3": "خلايا بطانة الأمعاء (تتجدد كل 2-4 أيام)",
+        "answer4": "خلايا القلب",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 8,
+        "question": "ما المقصود بـ LDL في فحوصات الكوليسترول؟",
+        "answer1": "الكوليسترول الجيد",
+        "answer2": "الكوليسترول الضار (Low-Density Lipoprotein)",
+        "answer3": "مستوى الدهون الثلاثية",
+        "answer4": "نسبة السكر في الدم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما المنطقة في الدماغ المسؤولة عن التنسيق الحركي والتوازن؟",
+        "answer1": "الفص الجبهي",
+        "answer2": "المخيخ",
+        "answer3": "منطقة بروكا",
+        "answer4": "اللوزة الدماغية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما المقصود بـ MRI؟",
+        "answer1": "أشعة سينية متطورة",
+        "answer2": "تصوير بالرنين المغناطيسي يستخدم موجات مغناطيسية لا أشعة",
+        "answer3": "تصوير بالأشعة فوق البنفسجية",
+        "answer4": "أشعة نووية",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "القانون",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الفرق بين القانون الجنائي والمدني؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "الجنائي يُعاقب على الجرائم بين الفرد والدولة، المدني ينظم النزاعات بين الأفراد",
+        "answer3": "المدني أشد عقوبةً",
+        "answer4": "الجنائي للشركات فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما مبدأ 'افتراض البراءة'؟",
+        "answer1": "المتهم مذنب حتى تُثبت براءته",
+        "answer2": "المتهم بريء حتى تُثبت إدانته",
+        "answer3": "القاضي يقرر الإدانة بدون أدلة",
+        "answer4": "البراءة تُقرر بالتصويت",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما القانون الدستوري؟",
+        "answer1": "قانون العقود التجارية",
+        "answer2": "القانون الذي يُنظّم نظام الحكم ويُحدد حقوق المواطنين وسلطات الدولة",
+        "answer3": "قانون الأسرة",
+        "answer4": "قانون العقوبات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما المقصود بـ 'حق التقاضي'؟",
+        "answer1": "حق القاضي في الحكم",
+        "answer2": "حق الفرد في اللجوء إلى المحاكم للمطالبة بحقوقه",
+        "answer3": "حق المحامي في الدفاع",
+        "answer4": "حق الشاهد في الامتناع",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما المقصود بـ 'القوة القاهرة' في العقود؟",
+        "answer1": "قوة الدولة في إلزام العقد",
+        "answer2": "حدث استثنائي خارج إرادة الأطراف يجعل تنفيذ العقد مستحيلاً",
+        "answer3": "بند يُتيح إلغاء العقد بأي سبب",
+        "answer4": "شرط الجزاء المالي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما التمييز بين السلطات الثلاث في الدولة؟",
+        "answer1": "التنفيذية، التشريعية، القضائية",
+        "answer2": "العسكرية، الأمنية، الاقتصادية",
+        "answer3": "المحلية، الإقليمية، الدولية",
+        "answer4": "المدنية، الجنائية، الإدارية",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "ما القانون الدولي الإنساني؟",
+        "answer1": "قانون الهجرة",
+        "answer2": "مجموعة قواعد تُقيّد أساليب الحرب وتحمي المدنيين والمقاتلين خارج القتال",
+        "answer3": "قانون التجارة الدولية",
+        "answer4": "قانون حقوق الملكية الفكرية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما التقادم في القانون؟",
+        "answer1": "قِدَم النص القانوني",
+        "answer2": "مرور مدة زمنية محددة يسقط بعدها الحق في رفع الدعوى",
+        "answer3": "إلغاء القانون",
+        "answer4": "عقوبة تقادم السجل الجنائي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما اتفاقية جنيف؟",
+        "answer1": "معاهدة تجارية",
+        "answer2": "مجموعة اتفاقيات دولية تُنظّم معاملة المدنيين والأسرى في الحروب",
+        "answer3": "معاهدة سلام بين دولتين",
+        "answer4": "ميثاق حقوق الإنسان",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما الفرق بين الجريمة العمد والجريمة غير العمد؟",
+        "answer1": "لا فرق في العقوبة",
+        "answer2": "العمد يشترط القصد الجنائي، غير العمد ينتج عن الإهمال أو الخطأ دون قصد",
+        "answer3": "غير العمد أشد عقوبةً",
+        "answer4": "العمد يختص بالجرائم المالية",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "علم النفس",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما هرم ماسلو للاحتياجات؟",
+        "answer1": "نظرية لأساليب التعلم",
+        "answer2": "نموذج يُرتّب الاحتياجات الإنسانية من الأساسية كالطعام حتى تحقيق الذات",
+        "answer3": "نظرية في الذكاء",
+        "answer4": "مراحل نمو الطفل",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما مفهوم التنافر المعرفي (Cognitive Dissonance)؟",
+        "answer1": "الذاكرة قصيرة المدى",
+        "answer2": "الانزعاج النفسي الناتج عن تناقض المعتقدات مع السلوك أو المعلومات الجديدة",
+        "answer3": "التعلم بالتكرار",
+        "answer4": "الإسقاط النفسي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "من صاحب التحليل النفسي ومفهوم اللاوعي؟",
+        "answer1": "كارل يونغ",
+        "answer2": "إيريك إريكسون",
+        "answer3": "سيغموند فرويد",
+        "answer4": "إيفان بافلوف",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما تجربة بافلوف الشهيرة؟",
+        "answer1": "تعليم القرود حل المشكلات",
+        "answer2": "إشراط الكلاب على إفراز اللعاب عند سماع الجرس (التعلم الاشتراطي الكلاسيكي)",
+        "answer3": "دراسة الذاكرة طويلة المدى",
+        "answer4": "اختبار الذكاء",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الفرق بين الانبساطية (Extroversion) والانطوائية (Introversion)؟",
+        "answer1": "الانبساطي ذكي، الانطوائي أقل ذكاءً",
+        "answer2": "الانبساطي يستمد طاقته من التفاعل الاجتماعي، الانطوائي من الوقت الفردي",
+        "answer3": "الانطوائي خجول فقط",
+        "answer4": "لا فرق علمي بينهما",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما أثر الهالة (Halo Effect)؟",
+        "answer1": "تحيّز يجعلنا نحكم على شخصية الشخص كلها بناءً على صفة واحدة إيجابية",
+        "answer2": "تأثير الضوء على المزاج",
+        "answer3": "الاعتقاد بوجود أرواح",
+        "answer4": "تأثير القائد على المجموعة",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 7,
+        "question": "ما مراحل الحزن الخمس لكوبلر روس؟",
+        "answer1": "الغضب، الفرح، القبول، الرفض، النوم",
+        "answer2": "الإنكار، الغضب، المساومة، الاكتئاب، القبول",
+        "answer3": "الحيرة، الغضب، البكاء، الصمت، التعافي",
+        "answer4": "الصدمة، الإنكار، الرفض، الحزن، الفرح",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما التحيز التأكيدي (Confirmation Bias)؟",
+        "answer1": "البحث عن معلومات تُؤكد معتقداتنا مسبقاً وتجاهل ما يعارضها",
+        "answer2": "التحقق من كل المعلومات بشكل علمي",
+        "answer3": "التوقف عن التفكير النقدي",
+        "answer4": "الثقة الزائدة بالنفس",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 9,
+        "question": "ما الفرق بين القلق الطبيعي واضطراب القلق؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "القلق الطبيعي استجابة مؤقتة لموقف، اضطراب القلق مزمن ومبالغ ويُعيق الحياة",
+        "answer3": "القلق الطبيعي أشد خطورةً",
+        "answer4": "اضطراب القلق يؤثر على الجسم فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما نظرية الذكاءات المتعددة لهاوارد غاردنر؟",
+        "answer1": "الذكاء نوع واحد يُقاس بـ IQ فقط",
+        "answer2": "الذكاء أنواع متعددة منها اللغوي، المنطقي، الموسيقي، الجسدي وغيرها",
+        "answer3": "الذكاء يتناقص مع العمر",
+        "answer4": "الذكاء وراثي بالكامل",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "التكنولوجيا والذكاء الاصطناعي",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الفرق بين Machine Learning و Deep Learning؟",
+        "answer1": "لا فرق، هما نفس الشيء",
+        "answer2": "Deep Learning نوع من Machine Learning يعتمد على شبكات عصبية عميقة متعددة الطبقات",
+        "answer3": "Machine Learning أكثر دقةً دائماً",
+        "answer4": "Deep Learning لا يحتاج بيانات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما تقنية Blockchain؟",
+        "answer1": "نوع من الذاكرة العشوائية",
+        "answer2": "سجل موزع لا مركزي يُسجّل المعاملات في كتل مترابطة بصورة لا تقبل التلاعب",
+        "answer3": "بروتوكول إنترنت",
+        "answer4": "نوع من برامج التشفير فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما المقصود بـ API (واجهة برمجة التطبيقات)؟",
+        "answer1": "نوع من قواعد البيانات",
+        "answer2": "واجهة تُتيح لبرامج مختلفة التواصل وتبادل البيانات",
+        "answer3": "لغة برمجة",
+        "answer4": "متصفح إنترنت",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما الفرق بين AI العامة (AGI) والذكاء الاصطناعي الضيق الحالي؟",
+        "answer1": "AGI أسرع فقط",
+        "answer2": "الضيق يؤدي مهمة محددة، AGI قادر على أداء أي مهمة ذهنية يستطيعها الإنسان",
+        "answer3": "AGI موجود بالفعل في الهواتف",
+        "answer4": "لا فرق بينهما",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما تقنية الحوسبة الكمية (Quantum Computing)؟",
+        "answer1": "حواسيب أسرع بشريحة جديدة",
+        "answer2": "حواسيب تعتمد على مبادئ ميكانيكا الكم (القيوبت) لحل مسائل معقدة بصورة فائقة السرعة",
+        "answer3": "حواسيب صغيرة الحجم",
+        "answer4": "حواسيب تعمل بالطاقة الشمسية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما IoT (إنترنت الأشياء)؟",
+        "answer1": "شبكة مواقع الإنترنت فقط",
+        "answer2": "شبكة أجهزة مادية متصلة بالإنترنت تجمع وتتبادل البيانات",
+        "answer3": "بروتوكول أمان",
+        "answer4": "تطبيق للتجارة الإلكترونية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما الفرق بين AR و VR؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "AR تُضيف عناصر رقمية على العالم الحقيقي، VR تُنشئ بيئة افتراضية كاملة",
+        "answer3": "VR أرخص من AR",
+        "answer4": "AR تحتاج نظارات خاصة، VR لا",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما المقصود بـ Cloud Computing؟",
+        "answer1": "برامج تعمل دون إنترنت",
+        "answer2": "تقديم خدمات الحوسبة والتخزين والبرامج عبر الإنترنت عند الطلب",
+        "answer3": "تخزين البيانات على الهاتف فقط",
+        "answer4": "أجهزة حاسوب في الطقس",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما هجوم الـ Phishing؟",
+        "answer1": "هجوم على الشبكة بالبرامج الضارة",
+        "answer2": "خداع المستخدم لإفصاحه عن بيانات حساسة عبر رسائل أو مواقع مزيفة",
+        "answer3": "استغلال ثغرات النظام",
+        "answer4": "تشفير الملفات وطلب فدية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما لغة Python وتتميز بـ؟",
+        "answer1": "لغة تجميع منخفضة المستوى",
+        "answer2": "لغة برمجة عالية المستوى بسهولة القراءة وتُستخدم في الذكاء الاصطناعي وعلم البيانات",
+        "answer3": "لغة لتطوير الألعاب فقط",
+        "answer4": "لغة لبرمجة المواقع الأمامية فقط",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الرياضة",
+    "questions": [
+      {
+        "number": 1,
+        "question": "كم مدة مباراة كرة القدم الرسمية؟",
+        "answer1": "80 دقيقة",
+        "answer2": "90 دقيقة (شوطان × 45)",
+        "answer3": "100 دقيقة",
+        "answer4": "75 دقيقة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "كم عدد لاعبي كرة السلة في الملعب لكل فريق؟",
+        "answer1": "6",
+        "answer2": "4",
+        "answer3": "5",
+        "answer4": "7",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "ما الحد الأدنى لمسافة ماراثون الجري؟",
+        "answer1": "40 كم",
+        "answer2": "42.195 كم",
+        "answer3": "45 كم",
+        "answer4": "38 كم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "في كرة القدم، ما قاعدة التسلل؟",
+        "answer1": "اللاعب خلف الكرة عند التمريرة",
+        "answer2": "اللاعب المهاجم أمام آخر مدافع قبل الحارس عند لحظة تمرير الكرة إليه",
+        "answer3": "اللاعب في منتصف الملعب",
+        "answer4": "اللاعب بجوار الحكم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "كم مرة فازت البرازيل بكأس العالم حتى 2023؟",
+        "answer1": "4",
+        "answer2": "6",
+        "answer3": "5",
+        "answer4": "3",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما الرياضة التي تُستخدم فيها المضرب والريشة؟",
+        "answer1": "التنس",
+        "answer2": "الريشة الطائرة (Badminton)",
+        "answer3": "سكواش",
+        "answer4": "البيسبول",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "في السباحة، ما أسرع أسلوب سباحة؟",
+        "answer1": "الزحف على الجنب",
+        "answer2": "الصدر",
+        "answer3": "الفراشة",
+        "answer4": "الظهر",
+        "correctAnswer": "answer1"
+      },
+      {
+        "number": 8,
+        "question": "كم نقطة تساوي ضربة الـ Ace في التنس؟",
+        "answer1": "نقطتان",
+        "answer2": "نقطة كاملة مباشرة",
+        "answer3": "نصف نقطة",
+        "answer4": "لا تُحسب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "في كرة القدم الأمريكية، كم نقطة يساوي الـ Touchdown؟",
+        "answer1": "3",
+        "answer2": "7",
+        "answer3": "6",
+        "answer4": "4",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "ما الدولة التي احتضنت أول دورة أولمبية حديثة عام 1896؟",
+        "answer1": "فرنسا",
+        "answer2": "إيطاليا",
+        "answer3": "اليونان",
+        "answer4": "بريطانيا",
+        "correctAnswer": "answer3"
+      }
+    ]
+  },
+  {
+    "title": "الموسيقى والفنون",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الفرق بين الموسيقى الكلاسيكية والجاز؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "الكلاسيكية مكتوبة بدقة، الجاز يعتمد على الارتجال والحرية الموسيقية",
+        "answer3": "الجاز أقدم من الكلاسيكية",
+        "answer4": "الكلاسيكية تستخدم آلات الجاز",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "من رسم لوحة 'الموناليزا'؟",
+        "answer1": "مايكل أنجلو",
+        "answer2": "رافاييل",
+        "answer3": "ليوناردو دافنشي",
+        "answer4": "بيكاسو",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 3,
+        "question": "ما المقام الموسيقي (Scale) ويختلف عن السلّم الموسيقي بـ؟",
+        "answer1": "المقام نفس السلّم تماماً",
+        "answer2": "السلّم تسلسل نغمات محدد، المقام يشمل السلّم والأنماط العاطفية وأساليب الأداء",
+        "answer3": "المقام للأوركسترا فقط",
+        "answer4": "السلّم للموسيقى الشرقية فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما أسلوب الرسم 'التأثيري' (Impressionism)؟",
+        "answer1": "الرسم بدقة فوتوغرافية",
+        "answer2": "التركيز على التأثير البصري اللحظي والضوء عبر ضربات فرشاة سريعة",
+        "answer3": "رسم الأشكال الهندسية فقط",
+        "answer4": "فن الكاريكاتير",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الأوبرا؟",
+        "answer1": "مسرحية حوارية فقط",
+        "answer2": "عمل فني مسرحي يُغنّى بالكامل مع أوركسترا",
+        "answer3": "عرض راقص",
+        "answer4": "برنامج موسيقي إذاعي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "من صاحب السيمفونية التاسعة الشهيرة رغم صممه؟",
+        "answer1": "موزارت",
+        "answer2": "باخ",
+        "answer3": "بيتهوفن",
+        "answer4": "شوبان",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "ما الفرق بين النحت والرسم كفنّين تشكيليين؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "النحت ثلاثي الأبعاد، الرسم ثنائي الأبعاد على سطح",
+        "answer3": "الرسم أقدم من النحت",
+        "answer4": "النحت فقط يُعتبر فناً",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما المقصود بـ 'الفن التجريدي' (Abstract Art)؟",
+        "answer1": "نسخ من الطبيعة بدقة",
+        "answer2": "فن لا يُمثّل الواقع المرئي بل يعتمد على الأشكال والألوان والتعبير",
+        "answer3": "فن الرسوم المتحركة",
+        "answer4": "فن الخط العربي فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما أقدم آلة موسيقية وترية معروفة؟",
+        "answer1": "الكمان",
+        "answer2": "الجيتار",
+        "answer3": "القيثارة (Lyre)",
+        "answer4": "الأورغ",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 10,
+        "question": "ما حركة الـ Baroque في الفن والموسيقى؟",
+        "answer1": "حركة فنية بسيطة وهادئة",
+        "answer2": "حركة فنية وموسيقية في القرن 17-18 تتميز بالزخرفة والتعقيد والحركية",
+        "answer3": "فن الحداثة",
+        "answer4": "حركة الفن التجريدي",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الجيولوجيا والبيئة",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الطبقة الداخلية للأرض الأشد حرارةً؟",
+        "answer1": "الوشاح",
+        "answer2": "القشرة الأرضية",
+        "answer3": "اللبّ الداخلي الصلب",
+        "answer4": "الغلاف الجوي",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "ما الفرق بين البركان النشط والخامد؟",
+        "answer1": "لا فرق، كلاهما قد يثور",
+        "answer2": "النشط ثار مؤخراً أو يُظهر نشاطاً، الخامد لم يثر منذ آلاف السنين لكن قد يثور",
+        "answer3": "الخامد أكبر حجماً",
+        "answer4": "النشط لا يُنتج حمماً",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما ظاهرة الاحترار العالمي؟",
+        "answer1": "ارتفاع درجة حرارة الشمس",
+        "answer2": "ارتفاع متوسط درجة حرارة الأرض بسبب تراكم غازات الدفيئة في الغلاف الجوي",
+        "answer3": "موجات الحر الصيفية فقط",
+        "answer4": "تآكل طبقة الأوزون فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما مقياس ريختر؟",
+        "answer1": "مقياس شدة الأعاصير",
+        "answer2": "مقياس لوغاريتمي لقياس قوة الزلازل",
+        "answer3": "مقياس حرارة الأرض",
+        "answer4": "مقياس تلوث الهواء",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الطاقة المتجددة وما مصادرها الرئيسية؟",
+        "answer1": "طاقة النفط والغاز",
+        "answer2": "طاقة تُستمد من مصادر متجددة طبيعياً كالشمس والرياح والمياه",
+        "answer3": "الطاقة النووية فقط",
+        "answer4": "طاقة الفحم الحجري",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما الصفيحة التكتونية؟",
+        "answer1": "طبقة من الجليد القطبي",
+        "answer2": "قطعة كبيرة من القشرة الأرضية والجزء العلوي من الوشاح تتحرك ببطء",
+        "answer3": "طبقة من الغلاف الجوي",
+        "answer4": "حزام من الكويكبات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما الفرق بين الطقس والمناخ؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "الطقس الحالة الجوية اليومية المتغيرة، المناخ المتوسط طويل المدى لعقود",
+        "answer3": "المناخ يتغير يومياً، الطقس ثابت",
+        "answer4": "الطقس للمناطق الباردة فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما أسباب الزلازل الرئيسية؟",
+        "answer1": "الأمطار الغزيرة",
+        "answer2": "حركة وتصادم الصفائح التكتونية",
+        "answer3": "انفجارات البراكين فقط",
+        "answer4": "ارتفاع درجات الحرارة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما المقصود بـ 'بصمة الكربون'؟",
+        "answer1": "لون الكربون",
+        "answer2": "مجموع انبعاثات ثاني أكسيد الكربون الناتجة عن نشاط شخص أو منظمة",
+        "answer3": "احتياطي الكربون في الأرض",
+        "answer4": "عملية تكوين الكربون",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما طبقة الأوزون ووظيفتها؟",
+        "answer1": "طبقة تحتجز الحرارة في الجو",
+        "answer2": "طبقة في الستراتوسفير تمتص الأشعة فوق البنفسجية الضارة من الشمس",
+        "answer3": "طبقة تُنتج الأكسجين",
+        "answer4": "طبقة تحمي من الصواعق",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "الأدب العالمي",
+    "questions": [
+      {
+        "number": 1,
+        "question": "من كاتب رواية '100 عام من العزلة'؟",
+        "answer1": "بورخيس",
+        "answer2": "ماريو فارغاس يوسا",
+        "answer3": "غابرييل غارسيا ماركيز",
+        "answer4": "إيزابيل الليندي",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "ما الأسلوب الأدبي 'الواقعية السحرية'؟",
+        "answer1": "روايات خيال علمي",
+        "answer2": "دمج العناصر السحرية والخارقة بشكل طبيعي ضمن الواقع اليومي",
+        "answer3": "الروايات التاريخية الدقيقة",
+        "answer4": "أدب الرعب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "من كاتب 'الجريمة والعقاب'؟",
+        "answer1": "تولستوي",
+        "answer2": "تشيخوف",
+        "answer3": "دوستويفسكي",
+        "answer4": "تورجنيف",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 4,
+        "question": "ما ملحمة الإلياذة وكاتبها؟",
+        "answer1": "ملحمة رومانية لفيرجيل",
+        "answer2": "ملحمة يونانية تُنسب لهوميروس تروي حرب طروادة",
+        "answer3": "ملحمة بابلية قديمة",
+        "answer4": "ملحمة مصرية فرعونية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "من كاتب مسرحية 'هاملت'؟",
+        "answer1": "مارلو",
+        "answer2": "بن جونسون",
+        "answer3": "شكسبير",
+        "answer4": "ميلتون",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 6,
+        "question": "ما الرواية البوليسية (Detective Fiction) وما أشهر شخصياتها؟",
+        "answer1": "روايات خيال علمي، بطلها روبوت",
+        "answer2": "أدب يدور حول كشف جريمة، أشهر شخصياتها شيرلوك هولمز لآرثر كونان دويل",
+        "answer3": "روايات تاريخية فقط",
+        "answer4": "أدب يدور في الفضاء",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "من كاتب 'رواية ألف شمس مشرقة'؟",
+        "answer1": "نجيب محفوظ",
+        "answer2": "خالد حسيني",
+        "answer3": "أورهان باموق",
+        "answer4": "نادين غورديمر",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما 'تيار الوعي' في الأدب؟",
+        "answer1": "أسلوب يروي الأحداث بالترتيب الزمني",
+        "answer2": "أسلوب يُجسّد تدفق أفكار الشخصية وانطباعاتها بشكل مباشر وغير منظم",
+        "answer3": "أسلوب الحوار الخارجي فقط",
+        "answer4": "السرد من منظور الراوي العليم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما أول رواية عربية تحصل على جائزة نوبل للآداب؟",
+        "answer1": "الكاتب هو طه حسين",
+        "answer2": "الكاتب هو نجيب محفوظ بـ'أولاد حارتنا' وغيرها",
+        "answer3": "الكاتب هو يوسف إدريس",
+        "answer4": "الكاتب هو توفيق الحكيم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما الفرق بين الشعر العمودي والشعر الحر؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "العمودي يلتزم الوزن والقافية، الحر يتحرر من الأوزان الصارمة",
+        "answer3": "الشعر الحر أقدم من العمودي",
+        "answer4": "الشعر العمودي للمبتدئين",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "التغذية والغذاء",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما الفيتامين الذي يُنتجه الجسم بالتعرض لأشعة الشمس؟",
+        "answer1": "فيتامين C",
+        "answer2": "فيتامين B12",
+        "answer3": "فيتامين D",
+        "answer4": "فيتامين K",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 2,
+        "question": "ما الفرق بين البروتين الكامل وغير الكامل؟",
+        "answer1": "لا فرق، كلاهما يُبنى منه العضل",
+        "answer2": "الكامل يحتوي على جميع الأحماض الأمينية الأساسية، غير الكامل يفتقر لبعضها",
+        "answer3": "غير الكامل أفضل للجسم",
+        "answer4": "الكامل موجود في النباتات فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما المعدن الضروري لتكوين الهيموغلوبين في الدم؟",
+        "answer1": "الكالسيوم",
+        "answer2": "الحديد",
+        "answer3": "المغنيسيوم",
+        "answer4": "الزنك",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما مؤشر الجليسيمي (Glycemic Index)؟",
+        "answer1": "قياس دهون الطعام",
+        "answer2": "مقياس لسرعة رفع الغذاء لمستوى السكر في الدم",
+        "answer3": "قياس السعرات الحرارية",
+        "answer4": "قياس كمية البروتين",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الأحماض الدهنية أوميغا 3 وأين توجد؟",
+        "answer1": "دهون ضارة في اللحوم الحمراء",
+        "answer2": "دهون مفيدة للقلب والدماغ توجد في الأسماك الدهنية وبذر الكتان",
+        "answer3": "كربوهيدرات في الحبوب",
+        "answer4": "بروتينات في البقوليات",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "ما الفرق بين السعرات الحرارية من الكربوهيدرات والدهون لكل غرام؟",
+        "answer1": "كلاهما 4 سعرات لكل غرام",
+        "answer2": "الكربوهيدرات 4 سعرات/غ، الدهون 9 سعرات/غ",
+        "answer3": "الدهون 4 سعرات/غ، الكربوهيدرات 9 سعرات/غ",
+        "answer4": "كلاهما 7 سعرات/غ",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 7,
+        "question": "ما المقصود بـ 'البروبيوتيك'؟",
+        "answer1": "مكملات فيتامينات",
+        "answer2": "بكتيريا نافعة حية تُحسّن صحة الأمعاء وتوازن ميكروبيوم الجهاز الهضمي",
+        "answer3": "مضادات حيوية طبيعية",
+        "answer4": "ألياف نباتية",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما أكثر مصادر فيتامين C وفرةً؟",
+        "answer1": "اللحوم الحمراء",
+        "answer2": "منتجات الألبان",
+        "answer3": "الفلفل الأحمر والحمضيات والكيوي",
+        "answer4": "الحبوب الكاملة",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 9,
+        "question": "ما الجفاف (Dehydration) وأولى علاماته؟",
+        "answer1": "نقص السكر في الدم",
+        "answer2": "نقص السوائل في الجسم، أولى علاماته العطش وتغير لون البول للأصفر الغامق",
+        "answer3": "ارتفاع ضغط الدم",
+        "answer4": "نقص البروتين",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما الفرق بين الغذاء العضوي (Organic) والتقليدي؟",
+        "answer1": "لا فرق غذائياً أو في طريقة الزراعة",
+        "answer2": "العضوي يُزرع بدون مبيدات ومواد كيميائية اصطناعية، التقليدي يستخدمها",
+        "answer3": "العضوي يحتوي على بروتين أكثر",
+        "answer4": "التقليدي أكثر أماناً للصحة",
+        "correctAnswer": "answer2"
+      }
+    ]
+  },
+  {
+    "title": "السينما والإعلام",
+    "questions": [
+      {
+        "number": 1,
+        "question": "ما المقصود بـ 'Mise-en-scène' في لغة السينما؟",
+        "answer1": "المونتاج",
+        "answer2": "كل ما يظهر أمام الكاميرا من ديكور وإضاءة وتمثيل وتكوين بصري",
+        "answer3": "الموسيقى التصويرية",
+        "answer4": "الحوار المكتوب",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 2,
+        "question": "ما الفرق بين المخرج والمنتج في صناعة الأفلام؟",
+        "answer1": "لا فرق، كلاهما يُخرج الفيلم",
+        "answer2": "المخرج المسؤول الفني والإبداعي، المنتج مسؤول التمويل والإدارة",
+        "answer3": "المنتج يكتب السيناريو",
+        "answer4": "المخرج يموّل الفيلم",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 3,
+        "question": "ما أقدم جائزة سينمائية في العالم؟",
+        "answer1": "الأوسكار",
+        "answer2": "الأسد الذهبي (مهرجان فينيسيا)",
+        "answer3": "السعفة الذهبية (كان)",
+        "answer4": "جائزة BAFTA",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 4,
+        "question": "ما المقصود بـ 'الدراما الوثائقية' (Docudrama)؟",
+        "answer1": "فيلم وثائقي علمي",
+        "answer2": "عمل يُعيد تمثيل أحداث حقيقية بأسلوب درامي",
+        "answer3": "مسلسل كوميدي",
+        "answer4": "أنيميشن تعليمي",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 5,
+        "question": "ما الـ CGI في السينما؟",
+        "answer1": "كاميرا جديدة الجيل",
+        "answer2": "صور مُولّدة بالحاسوب تُستخدم للمؤثرات البصرية",
+        "answer3": "إضاءة خاصة في الصالات",
+        "answer4": "تقنية مونتاج متقدمة",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 6,
+        "question": "من المخرج الذي أخرج فيلم 'Schindler's List'؟",
+        "answer1": "مارتن سكورسيزي",
+        "answer2": "كريستوفر نولان",
+        "answer3": "ستيفن سبيلبرغ",
+        "answer4": "فرانسيس فورد كوبولا",
+        "correctAnswer": "answer3"
+      },
+      {
+        "number": 7,
+        "question": "ما الـ Streaming وكيف غيّر صناعة الإعلام؟",
+        "answer1": "تقنية البث المباشر للأخبار فقط",
+        "answer2": "بث المحتوى الرقمي عبر الإنترنت عند الطلب، مما غيّر نموذج الاشتراك وأضعف التلفزيون التقليدي",
+        "answer3": "إذاعة الراديو الرقمية",
+        "answer4": "نظام تشفير المحتوى",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 8,
+        "question": "ما الفرق بين الـ Podcast وبرامج الراديو التقليدية؟",
+        "answer1": "لا فرق بينهما",
+        "answer2": "البودكاست محتوى صوتي رقمي يمكن استماعه في أي وقت، الراديو يبث في الوقت الفعلي فقط",
+        "answer3": "الراديو على الإنترنت فقط",
+        "answer4": "البودكاست للموسيقى فقط",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 9,
+        "question": "ما التأطير الإعلامي (Media Framing)؟",
+        "answer1": "إطار الشاشة",
+        "answer2": "الطريقة التي يختار بها الإعلام تقديم الأحداث وما يُبرزه لتشكيل فهم المشاهد",
+        "answer3": "حجم الخبر",
+        "answer4": "توقيت بث الأخبار",
+        "correctAnswer": "answer2"
+      },
+      {
+        "number": 10,
+        "question": "ما المقصود بـ 'الصحافة الاستقصائية'؟",
+        "answer1": "تغطية الأحداث اليومية",
+        "answer2": "صحافة تعتمد على البحث والتحقيق العميق للكشف عن قضايا خفية تمس المصلحة العامة",
+        "answer3": "الصحافة الرياضية",
+        "answer4": "صحافة الرأي والتحليل السياسي",
+        "correctAnswer": "answer2"
+      }
+    ]
+  }
+]
